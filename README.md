@@ -1,2 +1,2 @@
-# boonepeter.github.io
+# [Peter Boone](https://boonepeter.github.io)
 My personal site
