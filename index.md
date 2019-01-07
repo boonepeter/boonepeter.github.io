@@ -5,3 +5,5 @@ I am a molecular biologist by training and have spent 3+ years working on the be
 * [scikit-image](https://scikit-image.org/)
 * [scanpy](https://scanpy.readthedocs.io/en/latest/)
 * [matplotlib](https://matplotlib.org/)
+
+My [github](https://github.com/boonepeter) site contains contains image and data processing pipelines that I have used in the lab or for personal projects. They are not clean and will not work out of the box since you don't have any of the data, but feel free to have a look and take whatever you want from it. 
