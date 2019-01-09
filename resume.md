@@ -1,6 +1,4 @@
----
-title: Resume
----
+
 # EXPERIENCE
 ### Research Analyst - _[Duke University, Durham NC](https://surgery.duke.edu/faculty/joshua-clair-snyder-phd)_
 _MARCH 2018 - PRESENT_
