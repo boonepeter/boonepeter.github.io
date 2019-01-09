@@ -4,5 +4,5 @@ title: Peter Boone
 ignore: ["README.md"]
 github_username:  boonepeter
 header_pages: 
-  - index.html
+  - about.md
   - resume.md
