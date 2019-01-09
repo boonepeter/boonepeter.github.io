@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minima
 
 title: Peter Boone
 ignore: ["README.md"]
