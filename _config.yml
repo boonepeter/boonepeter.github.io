@@ -3,3 +3,6 @@ theme: minima
 title: Peter Boone
 ignore: ["README.md"]
 github_username:  boonepeter
+header_pages: 
+  - about.md
+  - resume.md
