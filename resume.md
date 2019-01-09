@@ -1,5 +1,6 @@
 ---
 title: Resume
+header: true
 permalink: /resume
 
 ---
