@@ -5,7 +5,7 @@ permalink: /posts/
 header: true
 
 ---
-
+<p>{{ site.title }}</p>
 <ul>
 {% for post in site.posts %}
   <li>
