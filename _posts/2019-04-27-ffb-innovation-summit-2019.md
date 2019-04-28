@@ -11,8 +11,9 @@ date: 2019-04-27
 ## Gene Therapy
 #### Safety of Luxturna -- *Dr. Mark Pennesi*
 Dr. Pennesi reported adverse events that have occurred since [LUXTURNA](https://luxturna.com/) went to market and compared these results to the adverse events in the clinical trials. 
+
 ||Adverse Events|Total Treated Eyes|Percent|
-|-|-------------|------------------|-------|
+|-|-|-|-|
 |Clinical Trial|36|81|44.4%|
 |Real World|29|75|38.7%|
 As you can see, the percentage of adverse events was roughly the same and were of similar severity. This is encouraging since you hope that complications don't increase as you move out of clinical trials.
