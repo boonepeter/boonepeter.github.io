@@ -1,3 +1,10 @@
+---
+layout: post
+title: "2019 FFB Innovation Summit"
+author: Peter Boone
+date: 2019-04-27
+---
+
 # Retinal Cell and Gene Therapy Innovation Summit
 *The 6th annual Innovation Summit organized by the [Foundation Fighting Blindness](https://www.fightingblindness.org/) and the [Casey Eye Institute](https://www.ohsu.edu/xd/health/services/casey-eye/) at OHSU was packed with exciting research and over 300 attendees. The summit took place in Vancuover, CA on April 26 just before ARVO. I will highlight some research that was relevant to Choroideremia and a few notes on the work.*
 
