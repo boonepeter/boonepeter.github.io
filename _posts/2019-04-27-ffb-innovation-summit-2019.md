@@ -16,6 +16,7 @@ Dr. Pennesi reported adverse events that have occurred since [LUXTURNA](https://
 |---|---|---|---|
 |Clinical Trial |36|81|44.4%|
 |Real World |29|75|38.7%|
+
 As you can see, the percentage of adverse events was roughly the same and were of similar severity. This is encouraging since you hope that complications don't increase as you move out of clinical trials.
 
 #### What immunosuppression are you using? -- *Sara Mary Hall*
