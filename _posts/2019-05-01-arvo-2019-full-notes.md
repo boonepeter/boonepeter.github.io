@@ -5,9 +5,7 @@ author: Peter Boone
 date: 2019-05-02
 ---
 
-<div>
-<img src="https://raw.githubusercontent.com/boonepeter/boonepeter.github.io/master/imgs/arvo-2019/2019-04-28-west-van-convention-center.jpg" alt="vancouver west convention center" height="50%" width="50%">
-</div>
+![west vancouver convention center](/imgs/arvo-2019/2019-04-28-west-van-convention-center.jpg)
 
 _The Vancouver Convention Center's West Building_
 
