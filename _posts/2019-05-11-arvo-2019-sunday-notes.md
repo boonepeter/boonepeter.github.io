@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "ARVO 2019 Full Notes"
+title: "ARVO 2019 Sunday Notes"
 author: Peter Boone
-date: 2019-05-02
+date: 2019-05-11
 ---
 
 ![west vancouver convention center](/imgs/arvo-2019/2019-04-28-west-van-convention-center.jpg)
@@ -60,11 +60,32 @@ During the question and answer session these topics were discussed:
     - Aleman pointed out that the different phases of clinical trials generally line up with where patients are in disease state (treat advance patients during early phase I trials).
 - Steve Rose asked how multiple therapies would work with institutional review boards and how patients would feel? Would it be difficult to get approval? 
     - Pennisi thinks it would not be an issue at all. They give multiple treatments to glaucoma patients! We just need to push.
-    
 
-**More notes to follow**
+### Cone Outer Segment Reflectance Entropy in Choroideremia - *Abstract: 1030*
+Andrew Huang (working with Jessica Morgan) presented some work using adaptive optics to measure density and reflectance entropy of cones in CHM patients. 
 
+|measured|CHM|Normal|Significance|
+|---|---|---|---|
+|Eyes measured|12,795|20,427|
+|Density|"reduced"||p=0.03|
+|Reflectance Entropy|2.2|2.7|p<0.001|
+|Entropy at 0.5&deg;|2.1|2.4|p<0.01|
+|at 1&deg;|2.2|2.7|p<0.01|
+|at 2&deg;|2.3|2.8|p<0.01|
+|at 4&deg;|2.2|2.8|p<0.01|
+|at 8&deg;|2.4|2.9|p=0.09|
 
+[Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) in image processing is the amount of randomness within an image. A sharper image will have lower entropy. This measurement could be a useful way of quantifying CHM patients as an objective endpoint. 
 
+### Functional and Structural endpoints in clinical trials - *Abstract: 995*
+Donald Hood discussed using optical coherence tomography as a clinical trial endpoint. He used the [UK Glaucoma Treatment Study](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)62111-5/fulltext) as an example of a clinical trial that actually used OCT as an endpoint, even though they used it as a secondary endpoint. He also discussed using the 10-2 visual field test instead of the 24-2 visual field because it has a higher density of points in the central portion of the visual field (see [this abstract](https://iovs.arvojournals.org/article.aspx?articleid=2349019) for a study on this). 
 
-
+### Interesting Posters
+- **Biodistribution and duration of action of Locked Nucleic Acid oligonucleotides** - *Sindri Traustason*
+    - LNAs are RNA nucleotides that have been modified with a bridge that improves binding affinity and decreases nuclease resistance. They tested an LNA through an intravitreal injection in minipigs. They found distribution in all layers of the neural retina and the RPE, as well as significant knockdown of VEGFA (the target) up to 90 days after injection. A reduction of 85% VEGF was observed in the vitreous humor for 120 days. 
+- **The number of RPGR cases remains under-represented** - *Elise Heon*
+    - Mutations in RPGR are the most common cause of X linked retinitis pigmentosa. This study removed some of the quality pass filters on the next generation sequencing done on "negative" patients. This allowed them to identify mutations in hard to sequence regions of the RPGR gene (specifically open reading frame 15) which were validated further. 
+- **Development of knock in mouse models of rhodopsin retinitis pigmentosa** - *Kelly Ziaka*
+    - This group created a few interesting mutations in the Rhodopsin gene in mice. The different mutations seemed to mirror the severity of the mutations found in humans, but need to be further studied. 
+- **Retina has significant protective mechanisms to eliminate mtDNA heteroplasmy SNPs compared to blood** - *Cristina Kenney*
+    - This group looked at samples from 3 individuals and found that the retina contained much lower levels of mtDNA [heteroplasmy](https://en.wikipedia.org/wiki/Heteroplasmy) than the blood. This suggests that the retina has protective measures that help deal with high metabolism and exposure to UV light. 
