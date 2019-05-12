@@ -56,7 +56,7 @@ Detected referable DR with a sensitivity of 90.4% and specificity of 97.5%, clas
 #### Understanding the relationship between ellipsoid zone inner border variation and its effect on visual acuity in diabetic retinopathy patients - *Jae Kim*
 This work examines the variability in the ellipsoid zone, how "wavy" it is. The algorithm to find the variability predicted a worsening visual acuity based on OCT images in 85.4% of one of the groups. This could be used as an additional tool to determine visual prognosis in a clinical setting. 
 
-[Tuesday's Notes](https://boonepeter.github.io/2019/05/11/arvo-2019-tuesday-notes.html)
+[Tuesday's Notes](https://boonepeter.github.io/2019/05/12/arvo-2019-tuesday-notes.html)
 
 
 
