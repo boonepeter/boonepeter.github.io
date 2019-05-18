@@ -7,3 +7,5 @@ header_pages:
   - about.md
   - posts.md
 google_analytics: UA-140434404-1
+plugins:
+  - jemoji
