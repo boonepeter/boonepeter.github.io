@@ -6,3 +6,5 @@ github_username:  boonepeter
 header_pages: 
   - about.md
   - posts.md
+# Google Analytics
+google_analytics: UA-140434404-1
