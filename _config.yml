@@ -6,6 +6,7 @@ github_username:  boonepeter
 header_pages: 
   - about.md
   - posts.md
+  - reviews.md
 google_analytics: UA-140434404-1
 plugins:
   - jemoji
