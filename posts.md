@@ -3,7 +3,6 @@ layout: page
 title: Posts
 permalink: /posts/
 header: true
-
 ---
 
 <ul>
