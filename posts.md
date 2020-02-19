@@ -6,6 +6,8 @@ header: true
 
 ---
 
+<p class="meta">everything &middot; <a href="/article-reviews/">no notes</a></p>
+
 <ul>
 {% for post in site.posts %}
   <li>
