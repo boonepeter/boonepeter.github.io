@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://boonepeter.github.io/sitemap.xml
