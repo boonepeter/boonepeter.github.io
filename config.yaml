@@ -1,0 +1,103 @@
+baseURL: "https://boonepeter.github.io/"
+title: Boonedoggle
+paginate: 8
+theme: hugo-PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Archives
+          url: /archive/
+          weight: 5
+        - name: Tags
+          url: /tags/
+          weight: 10
+
+params:
+  #env: production
+  description: "My site"
+  author: Peter Boone
+  # author: ["Me", "You"] # multiple authors
+  ShowReadingTime: true
+  defaultTheme: auto
+  ShowShareButtons: false
+  displayFullLangName: true
+  # images: ""
+  # assets:
+  #   favicon: '<path / external url>'
+
+  #profileMode:
+    #enabled: false
+    #title: PaperMod
+    #imageUrl: "#"
+    #imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    #buttons:
+    #  - name: Archives
+    #    url: archives
+    #  - name: Tags
+    #    url: tags
+
+  homeInfoParams:
+    Title: "Welcome!"
+    Content: >
+      I'm Peter, a software engineer with a background in molecular biology. 
+
+      > 
+      
+      I mostly write about [choroideremia](https://en.wikipedia.org/wiki/Choroideremia) (an eye disease I have) on this blog, but I will write about tech sometimes.
+
+      > 
+
+      [boon·dog·gle](https://en.wikipedia.org/wiki/Boondoggle) | / __ˈbo͞onˌdäɡəl__ / (noun) – work or activity that is wasteful or pointless but gives the appearance of having value.
+      
+      This blog isn't pointless, I just like puns.
+      
+  socialIcons:
+    - name: github
+      url: "https://github.com/boonepeter"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/boonepeter"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/10703868/peter-boone"
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+privacy:
+  vimeo:
+    disabled: true
+    simple: true
+
+  twitter:
+    disabled: true
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: true
+    simple: true
+
+  youtube:
+    disabled: true
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
