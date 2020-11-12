@@ -1,10 +1,3 @@
-[submodule "hugo-bearblog"]
-	path = hugo-bearblog
-	url = https://github.com/janraasch/hugo-bearblog
 [submodule "hugo-PaperMod"]
 	path = hugo-PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod
-[submodule "boonepeter.github.io"]
-	path = boonepeter.github.io
-	url = https://github.com/boonepeter/boonepeter.github.io.git
-	branch = master
