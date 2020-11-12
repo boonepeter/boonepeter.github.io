@@ -25,8 +25,8 @@ languages:
           weight: 10
 
 params:
-  #env: production
-  description: "My site"
+  env: production
+  description: "A blog about choroideremia and tech"
   author: Peter Boone
   # author: ["Me", "You"] # multiple authors
   ShowReadingTime: true
