@@ -4,10 +4,10 @@ title: "How do Spotify Codes work?"
 author: Peter Boone
 tags: ["tech", "spotify"]
 date: 2020-11-10
-draft: true
+draft: false
 ---
 
-[Spotify Codes](https://www.spotifycodes.com/) are QR-like codes that can be generated to easily share Spotify songs, artists, playlists, and users. I set out to figure out how they worked, which lead me on a winding journey through barcodes, gray tables, patents, and packet sniffing.
+[Spotify Codes](https://www.spotifycodes.com/) are QR-like codes that can be generated to easily share Spotify songs, artists, playlists, and users. I set out to figure out how they worked, which lead me on a winding journey through barcode history, patents, packet sniffing, error correction, and Gray tables.
 
 ## Spotify URIs
 
@@ -167,8 +167,6 @@ media_reference = "67775490487"
 uri = "spotify:user:jimmylavallin:playlist:2hXLRTDrNa4rG1XyM0ngT1"
 ```
 
-![spotify code](/imgs/spotify/spotify_user_jimmylavallin_playlist_2hXLRTDrNa4rG1XyM0ngT1.jpg)
-
 There are a few steps required to turn a media reference into a Spotify code (and vis versa).
 
 ### Cyclic Redundancy Check
@@ -220,7 +218,9 @@ The total forward error corrected code is 60 bits long, which is the exact amoun
 
 The patents do mention that Spotify uses the [Viterbi algorithm](https://en.wikipedia.org/wiki/Viterbi_decoder) to decode the media reference from the forward error corrected code. I won't go into it here, but that algorithm uses the redundant bits from the forward error correction to determine the best guess of the actual media reference.
 
-## Gray Code
+### Gray Code
+
+I really like this part of the Spotify codes.
 
 [Gray code](https://en.wikipedia.org/wiki/Gray_code) is an alternative way to represent a binary number. If you look closely at the following table, you will see that Gray code works by changing only one bit at a time.
 
@@ -237,4 +237,12 @@ Decimal|Binary|Gray
 
 Why does Spotify use Gray code? What is wrong with normal binary representation of the code?
 
-When we measure the height of a bar in the barcode we could be off by one. We might round the number `3.4` down to three, but it could also be length 4. When you use Gray codes to represent 3 and 4, there is only one bit of difference between them.
+The difference between 3 and 4 in Gray code is only 1 bit (`010 -> 110`). In normal binary representation, that difference is 3 bits (`100 -> 011`). When going from analog (the height of a given bar) to binary, using Gray codes reduces the number of bits that are "wrong" if we calculate the wrong height.
+
+If the height of a bar is supposed to be 3, but we calculate that it is 3.51 and we round up to 4, the binary representation of that number in Gray code will only be off by one bit. This makes the forward error correction more useful.
+
+I think it is cool how Spotify uses "old school" computer science techniques. Frank Gray being concerned about how physical switches operate in 1947 is still applicable today. When you are at the interface between analog and digital, a lot of older concepts become more relevant.
+
+## Final thoughts
+
+I was hoping to be able to implement my own Spotify Code to URI tool, but I wasn't quite able to. I don't know exactly what forward error correction Spotify uses. I also don't know for sure if they are using CRC8. There is also another step that I didn't mention where they shuffle the bars around, and I don't know how they do that. I haven't quite given up, though. I plan to spend some more time studying a lot of sequences to see if I can figure out the error detection. I need to generate a bunch of corresponding URI, media reference, and Spotify code triplets.
