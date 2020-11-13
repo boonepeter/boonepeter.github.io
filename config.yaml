@@ -28,7 +28,6 @@ params:
   env: production
   description: "A blog about choroideremia and tech"
   author: Peter Boone
-  # author: ["Me", "You"] # multiple authors
   ShowReadingTime: true
   defaultTheme: auto
   ShowShareButtons: false
