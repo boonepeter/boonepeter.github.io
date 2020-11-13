@@ -79,7 +79,7 @@ This means the data is encoded in [octal](https://en.wikipedia.org/wiki/Octal).
 
 The Spotify logo's diameter is the same as the height of the highest bar. This makes it easy to generate ratios of the bars' heights.
 
-In [this function](src/get_heights.py) I use [scikit-image](https://scikit-image.org/) to calculate the sequence of bar heights from a logo.
+In this function I use [scikit-image](https://scikit-image.org/) to calculate the sequence of bar heights from a logo.
 
 ```python
 from skimage import io
@@ -131,7 +131,7 @@ Here are those results overlaid on the barcode:
 
 ![labeled spotify code](/imgs/spotify/spotify_labeled.png)
 
-After looking at a few barcodes, I realized that the first and last bars are always 0, and the 12th bar is always a 7. This must help in identifying if the barcode is valid. Having the 12th bar as the max height also helps you calculate the ratios of the bar heights. I suspect the first and last bar set to 0 is somewhat aesthetic.They make the barcode look more like a sound wave. Here are a few barcodes printed out so you can see that the first and last are always equal to 0 and the 12th is equal to 7.
+After looking at a few barcodes, I realized that the first and last bars are always 0, and the 12th bar is always a 7. This must help in identifying if the barcode is valid. Having the 12th bar as the max height also helps you calculate the ratios of the bar heights. I suspect setting the first and last bar set to 0 is an aesthetic choice: it makes the barcode look more like a sound wave. Here are a few barcodes printed out so you can see that the first and last are always equal to 0 and the 12th is equal to 7.
 
 ```python
     [0, 3, 3, 0, 5, 2, 2, 2, 2, 5, 1, 7, 0, 0, 5, 6, 0, 7, 7, 7, 1, 5, 0]
@@ -158,6 +158,8 @@ How do you convert a `63^22` bit URI into an `8^20` bit barcode? There is `2.3e+
 > "Patents are the worst" - Peter Boone
 
 Let me just say: patents are the worst. They are so dense. I used to think academic papers were full of jargon until I read some technical patents.
+
+### The Process
 
 When you visit [Spotify codes](https://www.spotifycodes.com/) and input a Spotify URI, a "media reference" is created by Spotify. This media reference is 37 bits long and is the key that links a barcode to a given URI. The media reference may just be the hash of an incrementing index. After extracting a media reference from a barcode, you check with Spotify's database (a look-up table) to determine what URI it corresponds to. A Stack Overflow user [discovered](https://stackoverflow.com/a/63479041/10703868) that you can sniff the request that your phone makes when scanning the barcode to determine the media reference and API endpoint.
 
@@ -239,10 +241,12 @@ Why does Spotify use Gray code? What is wrong with normal binary representation 
 
 The difference between 3 and 4 in Gray code is only 1 bit (`010 -> 110`). In normal binary representation, that difference is 3 bits (`100 -> 011`). When going from analog (the height of a given bar) to binary, using Gray codes reduces the number of bits that are "wrong" if we calculate the wrong height.
 
-If the height of a bar is supposed to be 3, but we calculate that it is 3.51 and we round up to 4, the binary representation of that number in Gray code will only be off by one bit. This makes the forward error correction more useful.
+If the height of a bar is supposed to be 3, but we calculate that it is 3.51 and we round up to 4, the binary representation of that number in Gray code will only be off by one bit. __This makes the forward error correction more useful.__
 
 I think it is cool how Spotify uses "old school" computer science techniques. Frank Gray being concerned about how physical switches operate in 1947 is still applicable today. When you are at the interface between analog and digital, a lot of older concepts become more relevant.
 
 ## Final thoughts
 
 I was hoping to be able to implement my own Spotify Code to URI tool, but I wasn't quite able to. I don't know exactly what forward error correction Spotify uses. I also don't know for sure if they are using CRC8. There is also another step that I didn't mention where they shuffle the bars around, and I don't know how they do that. I haven't quite given up, though. I plan to spend some more time studying a lot of sequences to see if I can figure out the error detection. I need to generate a bunch of corresponding URI, media reference, and Spotify code triplets.
+
+I didn't expect to learn quite this much when I started exploring Spotify codes, but that is the cool part about scratching the "curiosity itch"!
