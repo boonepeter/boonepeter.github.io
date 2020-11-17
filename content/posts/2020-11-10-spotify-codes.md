@@ -2,8 +2,8 @@
 layout: post
 title: "How do Spotify Codes work?"
 author: Peter Boone
-tags: ["tech", "spotify"]
-date: 2020-11-10
+tags: ["tech", "spotify", "python"]
+date: 2020-11-13
 draft: false
 ---
 
