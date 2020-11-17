@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Boonedoggle</title>
+    <link>https://boonepeter.github.io/tags/python/</link>
+    <description>Recent content in python on Boonedoggle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How do Spotify Codes work?</title>
+      <link>https://boonepeter.github.io/posts/2020-11-10-spotify-codes/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/2020-11-10-spotify-codes/</guid>
+      <description>Spotify Codes are QR-like codes that can be generated to easily share Spotify songs, artists, playlists, and users. I set out to figure out how they worked, which lead me on a winding journey through barcode history, patents, packet sniffing, error correction, and Gray tables.
+Spotify URIs Let&amp;rsquo;s start with Spotify URIs (Uniform Resource Identifiers). Different pieces of media (artists, albums, songs, playlists, users) all have a URI.
+The ABBA song &amp;ldquo;Take a Chance on Me&amp;rdquo; has this URI:</description>
+    </item>
+    
+  </channel>
+</rss>
