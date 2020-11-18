@@ -73,7 +73,7 @@ This is the Spotify code for the ABBA song "Take a Chance on Me":
 
 ![Spotify barcode](/imgs/spotify/spotify_track_6vQN2a9QSgWcm74KEZYfDL.jpg)
 
-When the bars are sorted by height you can see that there are 8 discreet heights that they fall into.
+When the bars are sorted by height you can see that there are 8 discrete heights that they fall into.
 
 ![Spotify sorted barcodes](/imgs/spotify/sorted.png)
 
