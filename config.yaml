@@ -71,6 +71,8 @@ params:
       url: "https://www.linkedin.com/in/boonepeter"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/10703868/peter-boone"
+  
+  subscribe: "https://buttondown.email/boonepeter"
 
 taxonomies:
   category: categories
