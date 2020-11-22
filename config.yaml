@@ -23,6 +23,9 @@ languages:
         - name: Tags
           url: /tags/
           weight: 10
+        #- name: Subscribe
+        #  url: https://buttondown.email/boonepeter
+        #  weight: 11
 
 params:
   env: production
@@ -56,7 +59,7 @@ params:
 
       > 
       
-      I mostly write about [choroideremia](https://en.wikipedia.org/wiki/Choroideremia) (an eye disease I have) on this blog, but I will write about tech sometimes.
+      I write about [choroideremia](https://en.wikipedia.org/wiki/Choroideremia) (an eye disease I have) and tech on this blog.
 
       > 
 
@@ -75,9 +78,7 @@ params:
   subscribe: "https://buttondown.email/boonepeter"
 
 taxonomies:
-  category: categories
   tag: tags
-  series: series
 
 privacy:
   vimeo:
