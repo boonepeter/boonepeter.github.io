@@ -9,7 +9,7 @@ draft: false
 
 ![Spotify barcode](/imgs/spotify/spotify_track_6vQN2a9QSgWcm74KEZYfDL.jpg)
 
-[Spotify Codes](https://www.spotifycodes.com/) are QR-like codes that can be generated to easily share Spotify songs, artists, playlists, and users. I set out to figure out how they worked, which lead me on a winding journey through barcode history, patents, packet sniffing, error correction, and Gray tables.
+[Spotify Codes](https://www.spotifycodes.com/) are QR-like codes that can be generated to easily share Spotify songs, artists, playlists, and users. I set out to figure out how they worked, which led me on a winding journey through barcode history, patents, packet sniffing, error correction, and Gray tables.
 
 ## Spotify URIs
 
