@@ -1,159 +1,100 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://boonepeter.github.io/</loc>
-    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/choroideremia/</loc>
+    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/</loc>
+    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/</loc>
+    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/vitamins-for-chm-part-1/</loc>
+    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/building-some-recipes/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/mongodb/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/node.js/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://boonepeter.github.io/posts/</loc>
-    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/react/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/recipes/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://boonepeter.github.io/tags/</loc>
-    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/tech/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/typescript/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2020-11-10-spotify-codes/</loc>
     <lastmod>2020-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/python/</loc>
     <lastmod>2020-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/spotify/</loc>
     <lastmod>2020-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2020-02-23-mrna-phenotype-review/</loc>
     <lastmod>2020-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/review/</loc>
     <lastmod>2020-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-11-16-asgct-gene-editing-ethics/</loc>
     <lastmod>2019-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/arvo/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/05-18-19-arvo-2019-thursday-notes/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-05-18-arvo-2019-thursday-notes/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-05-18-arvo-2019-wednesday-notes/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://boonepeter.github.io/tags/choroideremia/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-05-12-arvo-2019-summary/</loc>
     <lastmod>2019-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-05-12-arvo-2019-tuesday-notes/</loc>
     <lastmod>2019-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-05-11-arvo-2019-monday-notes/</loc>
     <lastmod>2019-05-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-05-11-arvo-2019-sunday-notes/</loc>
     <lastmod>2019-05-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-04-27-ffb-innovation-summit-2019/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/ffb/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-04-24-2018-crf-special-interest-group/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/posts/2019-04-24-arvo-2018/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/crf/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://boonepeter.github.io/archive/</loc>
   </url>
-  
 </urlset>
