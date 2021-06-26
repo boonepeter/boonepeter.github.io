@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Vitamins for Choroideremia"
+title: "Vitamins for Choroideremia - Part 1"
 author: Peter Boone
 tags: ["choroideremia"]
 date: 2021-06-26
 ---
-
-# Vitamins for Choroideremia - Part 1
 
 A question was posted in the [Choroideremia (CHM)](https://www.facebook.com/groups/Choroideremia) Facebook group about supplements:
 
