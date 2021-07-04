@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "Vitamins for Choroideremia - Part 1"
+title: "Vitamins for Choroideremia"
 author: Peter Boone
 tags: ["choroideremia"]
 date: 2021-06-26
 ---
 
+_Disclaimer:_ None of this should be taken as medical advice. Consult with your doctor.
+
 A question was posted in the [Choroideremia (CHM)](https://www.facebook.com/groups/Choroideremia) Facebook group about supplements:
 
 > Hello to all my fellow group mates. Just wanted some input as to what vitamins or supplements you are taking to help with CHM. I have been taking the Bausch and Lomb preservision and would like to know if there is something better or something additional you would recommend. TIA
 
-The research into vitamins and supplements for choroideremia is limited. I will do my best to outline some of the articles that have been published on the matter. None of this should be taken as medical advice.
+The research into vitamins and supplements for choroideremia is very limited. I have only been able to find one published research study that focused specifically on choroideremia.
 
 ## Macular Pigment and Lutein Supplementation in Choroideremia
 
@@ -31,3 +33,7 @@ A [small pilot study](https://doi.org/10.1006/exer.2001.1126) was published in 2
 ### Thoughts
 
 While this study was small the results are promising. It is nice to see that taking lutein could increase the level of macular pigmentation in choroideremia patients. I wouldn't expect to see any immediate change in vision, but the increased protection could be beneficial in the long term. I would like to see this studied in a larger group and followed over a longer period of time. 
+
+## Other Vitamins
+
+There are other vitamins and supplements that help with general eye health and some other related eye diseases like Retinitis Pigmentosa. The Choroideremia Research Foundation has a [list of commonly recommended supplements](https://www.curechm.org/for-patients-families/) which includes Lutein, Omega-3 (Fish Oil), Zeaxanthin, and N-Acetyl Cysteine (NAC). None of these have been proven to help preserve vision in choroideremia patients, but they are worth consulting with your doctor about.
