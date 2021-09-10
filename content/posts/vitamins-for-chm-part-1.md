@@ -2,7 +2,7 @@
 layout: post
 title: "Vitamins for Choroideremia"
 author: Peter Boone
-tags: ["choroideremia"]
+tags: ["choroideremia", "CHM", "vitamins"]
 date: 2021-06-26
 ---
 
