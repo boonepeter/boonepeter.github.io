@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google on Peter Boone</title>
+    <link>https://boonepeter.github.io/tags/google/</link>
+    <description>Recent content in google on Peter Boone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unnecessary BigQuery Optimization</title>
+      <link>https://boonepeter.github.io/posts/unnecessary_bigquery_optimization/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/unnecessary_bigquery_optimization/</guid>
+      <description>I was reading a post about BigQuery cost optimization which stated this:
+ Also remember you are charged for bytes processed in the first stage of query execution. Avoid creating a complex multistage query just to optimize for bytes processed in the intermediate stages, since there are no cost implications anyway (though you may achieve performance gains).
+ I was curious about this, because I have written some queries to minimize reading data multiple times.</description>
+    </item>
+    
+  </channel>
+</rss>

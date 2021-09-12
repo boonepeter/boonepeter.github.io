@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://boonepeter.github.io/tags/bigquery/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/google/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/tech/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/unnecessary_bigquery_optimization/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/chm/</loc>
+    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/choroideremia/</loc>
     <lastmod>2021-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boonepeter.github.io/</loc>
-    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/posts/</loc>
-    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/</loc>
+    <loc>https://boonepeter.github.io/tags/vitamins/</loc>
     <lastmod>2021-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/vitamins-for-chm-part-1/</loc>
@@ -30,9 +48,6 @@
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/recipes/</loc>
-    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/tech/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/typescript/</loc>
