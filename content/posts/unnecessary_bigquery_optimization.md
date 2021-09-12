@@ -51,7 +51,7 @@ FROM `bigquery-public-data.iowa_liquor_sales.sales`
 WHERE zip_code = '50314';
 ```
 
-I would think query 1 would be cheaper sincce it only reads the data once (in the CTE). Query 2 reads the data twice. But the BigQuery UI says that both queries process the same amount of data (476.4 MiB). I decided to look into the query plans to see how the executions compare.
+I would think query 1 would be cheaper since it only reads the data once (in the CTE). Query 2 reads the data twice. But the BigQuery UI says that both queries process the same amount of data (476.4 MiB). I decided to look into the query plans to see how the executions compare.
 
 ## Query 1 execution plan
 
