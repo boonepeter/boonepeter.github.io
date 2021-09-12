@@ -51,13 +51,11 @@ FROM `bigquery-public-data.iowa_liquor_sales.sales`
 WHERE zip_code = '50314';
 ```
 
-## Comparison
-
 I would think query 1 would be cheaper sincce it only reads the data once (in the CTE). Query 2 reads the data twice. But the BigQuery UI says that both queries process the same amount of data (476.4 MiB). I decided to look into the query plans to see how the executions compare.
 
 ## Query 1 execution plan
 
-Let's look at the execution plan for query 1. We can focus on `S00` and `S01` since the other stages are exactly the same between the two queries.
+Let's look at the execution plan for query 1. You can focus on `S00` and `S01` since the other stages are exactly the same between the two queries.
 
 ```
 S00: Input
@@ -147,15 +145,11 @@ As you can see, both plans read from the public dataset twice. The only differen
 
 ```sql
 WHERE and(in($11, '52722', '50314'), equal($11, '50314'))
-WHERE and(in($2, '52722', '50314'), equal($2, '52722'))
 ```
-There is no need to check if the zip code is in `('52722', '50314')` and also equal to `50314`.
-
-Compare that to the second, more straightforwad `WHERE` clauses:
+There is no need to check if the zip code is in `('52722', '50314')` and also equal to `50314`. Compare that to the second, more straightforwad `WHERE` clause:
 
 ```sql
 WHERE equal($11, '50314')
-WHERE equal($2, '52722')
 ```
 
 ## Query 3
