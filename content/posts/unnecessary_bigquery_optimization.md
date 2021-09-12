@@ -112,6 +112,8 @@ S04: Output
     TO __stage04_output
 ```
 
+I was slighty supprised to see that there are two reads from the `iowa_liquor_sales.sales` table. I naively assumed that it would read data only once when it is selected in the CTE.
+
 ## Query 2 execution plan
 ```
 S00: Input
@@ -154,7 +156,7 @@ WHERE equal($11, '50314')
 
 ## Query 3
 
-The first two queries prove a point, but a better version of the query would be:
+The first two queries prove a point - reading the same data twice from a table does not cost more. However, a better version of the query would be:
 
 ```sql
 SELECT
@@ -164,7 +166,8 @@ FROM `bigquery-public-data.iowa_liquor_sales.sales`
 WHERE zip_code in ('52722', '50314')
 GROUP BY zip_code;
 ```
-The execution plan is more straigntforward and actually only reads the data once. The amount of data processed is the same as the first two queries (476.4 MiB).
+The amount of data processed is the same as the first two queries (476.4 MiB). However, the query plan is much simpler and only reads from the dataset once:
+
 ```
 S00: Input
   READ	
@@ -189,8 +192,6 @@ S01: Output
     $40, $10
     TO __stage01_output
 ```
-
-
 
 ## Results
 
