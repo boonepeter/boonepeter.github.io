@@ -3,7 +3,7 @@ layout: post
 title: "Unnecessary BigQuery Optimization"
 author: Peter Boone
 tags: ["tech", "bigquery", "google"]
-date: 2021-09-11
+date: 2021-09-12
 draft: false
 ---
 
