@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The practical use of repetition and definition levels in BigQuery</title>
+      <link>https://boonepeter.github.io/posts/bigquery-records/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/bigquery-records/</guid>
+      <description>Google&amp;rsquo;s Dremel paper is an interesting read that explains some of the concepts that underlie BigQuery. I am still processing the paper and have noticed a few things about repetition and definition levels that are relevant to the every day use of BigQuery.
+Columnar Data and Records The underlying storage format for BigQuery is columnar. One of the first pieces of advice given to people using BigQuery is to only select the rows that you need.</description>
+    </item>
+    
+    <item>
       <title>Unnecessary BigQuery Optimization</title>
       <link>https://boonepeter.github.io/posts/unnecessary_bigquery_optimization/</link>
       <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
