@@ -1,0 +1,24 @@
+{{- $scratch := newScratch}}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
+{{- end -}}
+
+{{- if $.Site.Params.ShowReadingTime -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%s min" .ReadingTime))) }}
+{{- end -}}
+
+
+
+{{ with (partial "author.html" . ) }}
+{{ $scratch.Add "meta" (slice .)}}
+{{end}}
+
+{{- with ($scratch.Get "meta")}}
+{{- delimit . "&nbsp;·&nbsp;"}}
+{{- end }}
+
+{{- if $.Site.Params.sourceCodeRoot -}}
+{{ $href := printf "%s/blob/master/content/%s.md" $.Site.Params.sourceCodeRoot (trim .Page.RelPermalink "/") }}
+&nbsp;·&nbsp;<a href="{{ $href }}">Source</a>
+{{- end -}}

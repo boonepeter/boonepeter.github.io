@@ -35,6 +35,7 @@ params:
   defaultTheme: auto
   ShowShareButtons: false
   displayFullLangName: true
+  sourceCodeRoot: https://github.com/boonepeter/boonepeter.github.io
   # images: ""
   # assets:
   #   favicon: '<path / external url>'
@@ -59,7 +60,7 @@ params:
 
       > 
       
-      I write about [choroideremia](https://en.wikipedia.org/wiki/Choroideremia) (an eye disease I have) and tech on this blog.
+      I write about [choroideremia](https://en.wikipedia.org/wiki/Choroideremia) and tech on this blog.
 
       >       
   socialIcons:
