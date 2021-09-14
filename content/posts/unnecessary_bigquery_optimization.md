@@ -202,3 +202,9 @@ Query 2|476.4 MiB|9.834 sec
 Query 3|476.4 MiB|4.761 sec
 
 As the documentation says, we shouldn't worry about the number of times the data is read from a cost perspective. However, there may be performance gains if we can avoid reading the data multiple times. The last query consumes about 50% of the slot time of the first two queries. This is not a thorough comparison, but it does indicate that the third query is much faster.
+
+### Note
+
+If you are using flat rate billing then you __should__ be worried about the slot time from a cost perspective. As [the post mentions](https://cloud.google.com/blog/products/data-analytics/cost-optimization-best-practices-for-bigquery#:~:text=You%20might%20be,optimization%20in%20itself!):
+
+> You might be tempted to think that you don’t have to worry about query optimizations with flat-rate at all. The reality is that it still impacts performance. The faster your query (job) executes, the more number of jobs you will be able to complete in the same amount of time with fixed slots. If you think about it, that’s cost optimization in itself!
