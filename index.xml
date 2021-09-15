@@ -5,7 +5,18 @@
     <link>https://boonepeter.github.io/</link>
     <description>Recent content on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NULL in BigQuery</title>
+      <link>https://boonepeter.github.io/posts/null-in-bigquery/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/null-in-bigquery/</guid>
+      <description>Keeping track of how NULL values are handled in different SQL dialects can be tricky. This post will serve as a living document where I keep track of how BigQuery does this.
+NULL and STRING comparison Comparison always returns NULL.
+SELECT CAST(NULL AS STRING) = &amp;#39;&amp;#39;, -- null  CAST(NULL AS STRING) = &amp;#39;value&amp;#39;, -- null  CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE.</description>
+    </item>
+    
     <item>
       <title>The practical use of repetition and definition levels in BigQuery</title>
       <link>https://boonepeter.github.io/posts/bigquery-records/</link>

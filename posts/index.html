@@ -24,7 +24,7 @@
 <meta property="og:description" content="A blog about choroideremia and tech">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://boonepeter.github.io/posts/">
-<meta property="og:updated_time" content="2021-09-12T00:00:00+00:00">
+<meta property="og:updated_time" content="2021-09-14T00:00:00+00:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Posts">
 <meta name=twitter:description content="A blog about choroideremia and tech">
@@ -73,6 +73,22 @@ Subscribe
 <header class=page-header>
 <h1>Posts</h1>
 </header>
+<article class=post-entry>
+<header class=entry-header>
+<h2>
+NULL in BigQuery
+</h2>
+</header>
+<section class=entry-content>
+<p>Keeping track of how NULL values are handled in different SQL dialects can be tricky. This post will serve as a living document where I keep track of how BigQuery does this.
+NULL and STRING comparison Comparison always returns NULL.
+SELECT CAST(NULL AS STRING) = '', -- null CAST(NULL AS STRING) = 'value', -- null CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE....</p>
+</section>
+<footer class=entry-footer>
+September 14, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Peter Boone
+&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/null-in-bigquery.md>Source</a></footer>
+<a class=entry-link aria-label="post link to NULL in BigQuery" href=https://boonepeter.github.io/posts/null-in-bigquery/></a>
+</article>
 <article class=post-entry>
 <header class=entry-header>
 <h2>
@@ -182,22 +198,6 @@ Day 1 addressed regulatory issues in gene therapy development Day 2 dealt with p
 November 16, 2019&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Peter Boone
 &nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/2019-11-16-asgct-gene-editing-ethics-post.md>Source</a></footer>
 <a class=entry-link aria-label="post link to ASGCT Policy Summit, Day 3" href=https://boonepeter.github.io/posts/2019-11-16-asgct-gene-editing-ethics-post/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>
-ARVO 2019 Thursday Notes
-</h2>
-</header>
-<section class=entry-content>
-<p>Panorama view from Whistler Mountain.
-These notes from Thursday May 2, the last day of ARVO 2019. The conference had thinned out a bit as some people had to leave, but there were still some presentations of interest. You can read a summary or my notes from the other days here: Friday, Sunday, Monday, Tuesday, and Wednesday.
-Papers Subfoveal gene augmentation therapy for choroideremia: One-year results from a Phase I/II trial of AAV2-hCHM - Rachel M....</p>
-</section>
-<footer class=entry-footer>
-May 18, 2019&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Peter Boone
-&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/05-18-19-arvo-2019-thursday-notes.md>Source</a></footer>
-<a class=entry-link aria-label="post link to ARVO 2019 Thursday Notes" href=https://boonepeter.github.io/posts/05-18-19-arvo-2019-thursday-notes/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

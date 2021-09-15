@@ -24,7 +24,7 @@
 <meta property="og:description" content="A blog about choroideremia and tech">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://boonepeter.github.io/">
-<meta property="og:updated_time" content="2021-09-12T00:00:00+00:00">
+<meta property="og:updated_time" content="2021-09-14T00:00:00+00:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Peter Boone">
 <meta name=twitter:description content="A blog about choroideremia and tech">
@@ -86,6 +86,22 @@ Subscribe
 </section>
 <footer class=entry-footer><div class=social-icons><a href=https://github.com/boonepeter target=_blank rel="noopener noreferrer me" title=Github><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a><a href=https://www.linkedin.com/in/boonepeter target=_blank rel="noopener noreferrer me" title=Linkedin><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a><a href=https://stackoverflow.com/users/10703868/peter-boone target=_blank rel="noopener noreferrer me" title=Stackoverflow><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.913 16.041v6.848h17.599v-6.848M7.16 18.696h8.925M7.65 13.937l8.675 1.8M9.214 9.124l8.058 3.758M12.086 4.65l6.849 5.66M15.774 1.111l5.313 7.162"/></svg></a></div>
 </footer>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>
+NULL in BigQuery
+</h2>
+</header>
+<section class=entry-content>
+<p>Keeping track of how NULL values are handled in different SQL dialects can be tricky. This post will serve as a living document where I keep track of how BigQuery does this.
+NULL and STRING comparison Comparison always returns NULL.
+SELECT CAST(NULL AS STRING) = '', -- null CAST(NULL AS STRING) = 'value', -- null CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE....</p>
+</section>
+<footer class=entry-footer>
+September 14, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Peter Boone
+&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/null-in-bigquery.md>Source</a></footer>
+<a class=entry-link aria-label="post link to NULL in BigQuery" href=https://boonepeter.github.io/posts/null-in-bigquery/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -196,22 +212,6 @@ Day 1 addressed regulatory issues in gene therapy development Day 2 dealt with p
 November 16, 2019&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Peter Boone
 &nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/2019-11-16-asgct-gene-editing-ethics-post.md>Source</a></footer>
 <a class=entry-link aria-label="post link to ASGCT Policy Summit, Day 3" href=https://boonepeter.github.io/posts/2019-11-16-asgct-gene-editing-ethics-post/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>
-ARVO 2019 Thursday Notes
-</h2>
-</header>
-<section class=entry-content>
-<p>Panorama view from Whistler Mountain.
-These notes from Thursday May 2, the last day of ARVO 2019. The conference had thinned out a bit as some people had to leave, but there were still some presentations of interest. You can read a summary or my notes from the other days here: Friday, Sunday, Monday, Tuesday, and Wednesday.
-Papers Subfoveal gene augmentation therapy for choroideremia: One-year results from a Phase I/II trial of AAV2-hCHM - Rachel M....</p>
-</section>
-<footer class=entry-footer>
-May 18, 2019&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Peter Boone
-&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/05-18-19-arvo-2019-thursday-notes.md>Source</a></footer>
-<a class=entry-link aria-label="post link to ARVO 2019 Thursday Notes" href=https://boonepeter.github.io/posts/05-18-19-arvo-2019-thursday-notes/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
