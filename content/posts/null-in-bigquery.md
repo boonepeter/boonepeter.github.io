@@ -119,4 +119,15 @@ Row|n
 7|Infinity
 
 
+## `NULL` and `STRING` operations
 
+```sql
+SELECT 
+    ASCII(s), -- null
+    BYTE_LENGTH(s), -- null
+    CHAR_LENGTH(s), -- null
+    CHR(NULL), -- null
+FROM (
+    SELECT CAST(NULL AS STRING) AS s
+) value
+```
