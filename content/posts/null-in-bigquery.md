@@ -51,3 +51,72 @@ SELECT
   NOT CAST(NULL AS BOOL) -- null
 ```
 
+## `NULL` and `NUMERIC` operations
+
+[According to the docs](https://cloud.google.com/bigquery/docs/reference/standard-sql/mathematical_functions#:~:text=They%20return%20NULL,arguments%20is%20NaN.):
+> All mathematical functions have the following behaviors:
+> - They return NULL if any of the input parameters is NULL.
+> - They return NaN if any of the arguments is NaN.
+
+Which I can confirm:
+```sql
+SELECT 
+  1 + CAST(NULL AS INT64), -- null
+  1 - CAST(NULL AS INT64), -- null
+  1 / CAST(NULL AS INT64), -- null
+  1 * CAST(NULL AS INT64), -- null
+  POW(1, CAST(NULL AS INT64)), -- null
+  ABS(CAST(NULL AS INT64)), -- null
+  1.1 + CAST(NULL AS FLOAT64), -- null
+  1.1 - CAST(NULL AS FLOAT64), -- null
+  1.1 / CAST(NULL AS FLOAT64), -- null
+  1.1 * CAST(NULL AS FLOAT64), -- null
+  POW(1.1, CAST(NULL AS FLOAT64)), -- null
+  ABS(CAST(NULL AS FLOAT64)), -- null
+```
+
+## `NULL` and `NUMERIC` comparison
+
+Directly comparing returns `NULL`:
+```sql
+WITH a AS (SELECT NULL AS n)
+SELECT
+  1 < n, -- null
+  1 > n, -- null
+  1 = n, -- null
+  1 <> n, -- null
+  1.1 < n, -- null
+  1.1 < n, -- null
+FROM
+  a
+```
+
+When ordering, `NULL` is the [lowest value](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#:~:text=Floating%20point%20values%20are%20sorted%20in%20this%20order%2C%20from%20least%20to%20greatest%3A) (below `NaN` and `-infinity`):
+
+```sql
+    SELECT
+        n
+    FROM UNNEST([
+        1, 
+        -1, 
+        0, 
+        CAST(NULL AS INT64), 
+        CAST('NaN' AS FLOAT64), 
+        CAST('inf' AS FLOAT64), 
+        CAST('-inf' AS FLOAT64)]) AS n
+    ORDER BY n
+```
+returns:
+
+Row|n
+---|---
+1|`null`
+2|`NaN`
+3|-Infinity
+4|-1.0
+5|0.0
+6|1.0
+7|Infinity
+
+
+
