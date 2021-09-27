@@ -1,5 +1,5 @@
 baseURL: "https://boonepeter.github.io/"
-title: Boonedoggle
+title: Peter Boone
 paginate: 8
 theme: hugo-PaperMod
 enableInlineShortcodes: true
@@ -23,9 +23,9 @@ languages:
         - name: Tags
           url: /tags/
           weight: 10
-        #- name: Subscribe
-        #  url: https://buttondown.email/boonepeter
-        #  weight: 11
+        - name: Subscribe
+          url: https://buttondown.email/boonepeter
+          weight: 11
 
 params:
   env: production
@@ -35,6 +35,7 @@ params:
   defaultTheme: auto
   ShowShareButtons: false
   displayFullLangName: true
+  sourceCodeRoot: https://github.com/boonepeter/boonepeter.github.io
   # images: ""
   # assets:
   #   favicon: '<path / external url>'
@@ -59,14 +60,9 @@ params:
 
       > 
       
-      I write about [choroideremia](https://en.wikipedia.org/wiki/Choroideremia) (an eye disease I have) and tech on this blog.
+      I write about [choroideremia](https://en.wikipedia.org/wiki/Choroideremia) and tech on this blog.
 
-      > 
-
-      [boon·dog·gle](https://en.wikipedia.org/wiki/Boondoggle) | / __ˈbo͞onˌdäɡəl__ / (noun) – work or activity that is wasteful or pointless but gives the appearance of having value.
-      
-      This blog isn't pointless, I just like puns.
-      
+      >       
   socialIcons:
     - name: github
       url: "https://github.com/boonepeter"
