@@ -57,6 +57,41 @@ of a discrete-time, finite-state dynamical system observed in memoryless noise__
 
 [Convolutional codes](https://en.wikipedia.org/wiki/Convolutional_code) are a technique used to send redundant information to help
 
+## Examples
+
+
+
+uri: `spotify:track:1ykrctzPhcSS9GS3aHdtMt`
+
+media ref: `26560102031`
+
+`[0, 6, 6, 0, 7, 6, 0, 2, 2, 3, 1, 7, 0, 7, 6, 4, 6, 1, 4, 7, 4, 1, 0]`
+
+![joker presents](../imgs/spotify-2/spotify_track_1ykrctzPhcSS9GS3aHdtMt.jpeg)
+
+
+media ref: `67775490487`
+
+uri: `spotify:user:jimmylavallin:playlist:2hXLRTDrNa4rG1XyM0ngT1`
+
+`[0, 2, 6, 7, 1, 7, 0, 0, 0, 0, 4, 7, 1, 7, 3, 4, 2, 7, 5, 6, 5, 6, 0]`
+
+![jimmy's stuff](../imgs/spotify-2/spotify_user_jimmylavallin_playlist_2hXLRTDrNa4rG1XyM0ngT1.jpeg)
+
+
+media ref: `57639171874`
+
+uri: `spotify:user:spotify:playlist:37i9dQZF1DWZq91oLsHZvy`
+
+`[0, 5, 7, 4, 1, 4, 6, 6, 0, 2, 4, 7, 3, 4, 6, 7, 5, 5, 6, 0, 5, 0, 0]`
+
+![indie kicks](../imgs/spotify-2/spotify_user_spotify_playlist_37i9dQZF1DWZq91oLsHZvy.jpeg)
+
+
+## Media references
+
+<iframe src="https://open.spotify.com/embed/playlist/1QmDaiCAo3YmH23UQyV0FN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 References:
 
 Virterbi Decoder: https://doi.org/10.1109/TIT.1967.1054010
