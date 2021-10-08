@@ -3,24 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://boonepeter.github.io/tags/bigquery/</loc>
-    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/chm/</loc>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/genetics/</loc>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/genome/</loc>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/google/</loc>
-    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/posts/null-in-bigquery/</loc>
-    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/</loc>
-    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/</loc>
-    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/personal-genome-sequencing/</loc>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/</loc>
-    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/tech/</loc>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/null-in-bigquery/</loc>
     <lastmod>2021-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/bigquery-records/</loc>
@@ -28,9 +40,6 @@
   </url><url>
     <loc>https://boonepeter.github.io/posts/unnecessary_bigquery_optimization/</loc>
     <lastmod>2021-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/chm/</loc>
-    <lastmod>2021-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/choroideremia/</loc>
     <lastmod>2021-06-26T00:00:00+00:00</lastmod>

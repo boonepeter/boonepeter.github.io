@@ -5,7 +5,17 @@
     <link>https://boonepeter.github.io/tags/tech/</link>
     <description>Recent content in tech on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sequencing my genome</title>
+      <link>https://boonepeter.github.io/posts/personal-genome-sequencing/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/personal-genome-sequencing/</guid>
+      <description>We&amp;rsquo;ve come a long way since the Human Genome Project. This effort to sequence the human genome for the first time was a tremendous acheivement that lasted 13 (ish) years and cost $3 billion dollars. Thanks to this pioneering work and major advancements over the years it&amp;rsquo;s now possible to get your own genome sequenced for $300 in a few months.
+That&amp;rsquo;s a 10,000x decrease in cost! If the price of homes decreased at a similar rate since 1990, the median home would cost $7.</description>
+    </item>
+    
     <item>
       <title>NULL in BigQuery</title>
       <link>https://boonepeter.github.io/posts/null-in-bigquery/</link>

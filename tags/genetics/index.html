@@ -2,11 +2,11 @@
 <head><meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>google - Peter Boone</title>
+<title>genetics - Peter Boone</title>
 <meta name=keywords content>
 <meta name=description content="A blog about choroideremia and tech">
 <meta name=author content="Peter Boone">
-<link rel=canonical href=https://boonepeter.github.io/tags/google/>
+<link rel=canonical href=https://boonepeter.github.io/tags/genetics/>
 <link href=https://boonepeter.github.io/assets/css/stylesheet.min.69a0a2b5ef2f62289117c5e7895b832df501978d8dfb1274dc90509d9924b2bb.css integrity="sha256-aaCite8vYiiRF8XniVuDLfUBl42N+xJ03JBQnZkksrs=" rel="preload stylesheet" as=style>
 <link rel=manifest href=https://boonepeter.github.io/site.webmanifest>
 <link rel=icon href=https://boonepeter.github.io/favicon.ico>
@@ -17,16 +17,16 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
-<link rel=alternate type=application/rss+xml href=https://boonepeter.github.io/tags/google/index.xml>
+<link rel=alternate type=application/rss+xml href=https://boonepeter.github.io/tags/genetics/index.xml>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-125699184-1','auto'),ga('send','pageview'))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
-<meta property="og:title" content="google">
+<meta property="og:title" content="genetics">
 <meta property="og:description" content="A blog about choroideremia and tech">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://boonepeter.github.io/tags/google/">
+<meta property="og:url" content="https://boonepeter.github.io/tags/genetics/">
 <meta property="og:updated_time" content="2021-10-08T00:00:00+00:00">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="google">
+<meta name=twitter:title content="genetics">
 <meta name=twitter:description content="A blog about choroideremia and tech">
 </head>
 <body class=list id=top>
@@ -71,7 +71,7 @@ Subscribe
 </header>
 <main class=main>
 <header class=page-header>
-<h1>google</h1>
+<h1>genetics</h1>
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
@@ -87,53 +87,6 @@ That’s a 10,000x decrease in cost! If the price of homes decreased at a simila
 October 8, 2021&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Peter Boone
 &nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/personal-genome-sequencing.md>Source</a></footer>
 <a class=entry-link aria-label="post link to Sequencing my genome" href=https://boonepeter.github.io/posts/personal-genome-sequencing/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>
-NULL in BigQuery
-</h2>
-</header>
-<section class=entry-content>
-<p>Keeping track of how NULL values are handled in different SQL dialects can be tricky. This post will serve as a living document where I keep track of how BigQuery does this.
-NULL and STRING comparison Comparison always returns NULL.
-SELECT CAST(NULL AS STRING) = '', -- null CAST(NULL AS STRING) = 'value', -- null CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE....</p>
-</section>
-<footer class=entry-footer>
-September 14, 2021&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Peter Boone
-&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/null-in-bigquery.md>Source</a></footer>
-<a class=entry-link aria-label="post link to NULL in BigQuery" href=https://boonepeter.github.io/posts/null-in-bigquery/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>
-The practical use of repetition and definition levels in BigQuery
-</h2>
-</header>
-<section class=entry-content>
-<p>Google’s Dremel paper is an interesting read that explains some of the concepts that underlie BigQuery. I am still processing the paper and have noticed a few things about repetition and definition levels that are relevant to the every day use of BigQuery.
-Columnar Data and Records The underlying storage format for BigQuery is columnar. One of the first pieces of advice given to people using BigQuery is to only select the rows that you need....</p>
-</section>
-<footer class=entry-footer>
-September 12, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Peter Boone
-&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/bigquery-records.md>Source</a></footer>
-<a class=entry-link aria-label="post link to The practical use of repetition and definition levels in BigQuery" href=https://boonepeter.github.io/posts/bigquery-records/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>
-Unnecessary BigQuery Optimization
-</h2>
-</header>
-<section class=entry-content>
-<p>I was reading a post about BigQuery cost optimization which stated this:
-Also remember you are charged for bytes processed in the first stage of query execution. Avoid creating a complex multistage query just to optimize for bytes processed in the intermediate stages, since there are no cost implications anyway (though you may achieve performance gains).
-I was curious about this, because I have written some queries to minimize reading data multiple times....</p>
-</section>
-<footer class=entry-footer>
-September 12, 2021&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Peter Boone
-&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/unnecessary_bigquery_optimization.md>Source</a></footer>
-<a class=entry-link aria-label="post link to Unnecessary BigQuery Optimization" href=https://boonepeter.github.io/posts/unnecessary_bigquery_optimization/></a>
 </article>
 </main><footer class=footer>
 <span>&copy; 2021 <a href=https://boonepeter.github.io/>Peter Boone</a></span>
