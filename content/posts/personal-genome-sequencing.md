@@ -7,7 +7,7 @@ date: 2021-10-08
 draft: false
 ---
 
-We've come a long way since the [Human Genome Project](https://en.wikipedia.org/wiki/Human_Genome_Project). This effort to sequence the human genome for the first time was a tremendous acheivement that lasted 13 (ish) years and cost __$3 billion__ dollars. Thanks to this pioneering work and major advancements over the years it's now possible to get your own genome sequenced for __$300__ in a few months.
+We've come a long way since the [Human Genome Project](https://en.wikipedia.org/wiki/Human_Genome_Project). This effort to sequence the human genome for the first time was a tremendous achievement that lasted 13 (ish) years and cost __$3 billion__ dollars. Thanks to this pioneering work and major advancements over the years it's now possible to get your own genome sequenced for __$300__ in a few months.
 
 That's a __10,000x__ decrease in cost! If the price of homes decreased at a similar rate since [1990](https://www.cnbc.com/2017/06/23/how-much-housing-prices-have-risen-since-1940.html), the median home would cost $7.91 today.
 
@@ -15,7 +15,7 @@ In July (3 months ago) I ordered a whole genome sequencing kit from [Nebula Geno
 
 ![Nebula WGS kit](/imgs/personal-genome/nebula-kit-2.jpg)
 
-I swabbed some cells off of my cheeks and sent the sample back in the pre-paid envelop, then waited. I read online that some users were waiting for ~9 months for their data to be available, but many were getting their results in 3 months. 
+I swabbed some cells off of my cheeks and sent the sample back in the pre-paid envelope, then waited. I read online that some users were waiting for ~9 months for their data to be available, but many were getting their results in 3 months. 
 
 ## WGS vs. SNP genotyping
 
@@ -23,17 +23,17 @@ I swabbed some cells off of my cheeks and sent the sample back in the pre-paid e
 
 Companies like [23andMe](https://www.23andme.com/) and [Ancestry](https://www.ancestry.com/dna/lp/genetic-testing) offer SNP genotyping. Instead of sequencing your entire genome, they instead focus on the [690,000](https://www.sciencenews.org/article/review-genetic-tests-23andme-veritas-genos-health-comparison#:~:text=23andMe%20uses%20the%20oldest%20technology,letters%20in%20the%20human%20genome) nucleotides that vary the most from person to person. This is cost effective and can give you information about your heritage and some diseases that have been selected.
 
-In contrast, whole genome sequencing (WGS) attempts to read your entire genome, all 6 billion nucleotieds. This gives you all of the information that 23andMe does, plus a lot more. Mutations that are unique to you will be revealed using WGS.
+In contrast, whole genome sequencing (WGS) attempts to read your entire genome, all 6 billion nucleotides. This gives you all of the information that 23andMe does, plus a lot more. Mutations that are unique to you will be revealed using WGS.
 
 ## The Results
 
-At the end of September I recieved my results! I was able to log in and download my data and view some results in Nebula's online portal. There is roughly 100GB of data, so I was thankful for somewhat fast internet.
+At the end of September I received my results! I was able to login and download my data and view some results in Nebula's online portal. There is roughly 100GB of data, so I was thankful for somewhat fast internet.
 
 ![Nebula download page](/imgs/personal-genome/download-page.png)
 
-Nebula has a reporting library where you can see if you have the markers that have been identified in various [genome wide association studies](https://www.genome.gov/about-genomics/fact-sheets/Genome-Wide-Association-Studies-Fact-Sheet). For example, I am in the 96th percentile of nebula users to be predisposed to migranes, according to this study:
+Nebula has a reporting library where you can see if you have the markers that have been identified in various [genome wide association studies](https://www.genome.gov/about-genomics/fact-sheets/Genome-Wide-Association-Studies-Fact-Sheet). For example, I am in the 96th percentile of nebula users to be predisposed to migraines, according to this study:
 
-![Nebula migrane study](/imgs/personal-genome/library-migrane.png)
+![Nebula migraine study](/imgs/personal-genome/library-migrane.png)
 
 Nebula's reports were fun to go through and included a few funny and __rude__ results:
 
@@ -56,7 +56,7 @@ Nebula gives you the ability to easily load variant data into [gene.iobio](https
 
 ![CHM gene iobio viewer](/imgs/personal-genome/chm-gene-iobio.png)
 
-If you can see in that screenshot I have a bunch of variants at the begining of my CHM gene, but after the variant at position 85,910,487, there aren't any more variants. This is because my CHM causing mutation is a large deletion that spans exons 3 to 9. There are no variants in this section because I don't have any DNA there!
+If you can see in that screenshot I have a bunch of variants at the beginning of my CHM gene, but after the variant at position 85,910,487, there aren't any more variants. This is because my CHM causing mutation is a large deletion that spans exons 3 to 9. There are no variants in this section because I don't have any DNA there!
 
 ## Subscription
 
@@ -72,9 +72,9 @@ I'm not sure how many new reports come in so I'm not sure if the subscription is
 
 ## Using the data
 
-I was able load the VCF file into BigQuery using [Google's gcp-variant-transforms tool](https://github.com/googlegenomics/gcp-variant-transforms). This process worked smoothly for me and it hase been interesting to query the data.
+I was able to load the VCF file into BigQuery using [Google's gcp-variant-transforms tool](https://github.com/googlegenomics/gcp-variant-transforms). This process worked smoothly for me and it has been interesting to query the data.
 
-I have seen others recomend [Promethease](https://promethease.com/), so I will be checking that out next.
+I have seen others recommend [Promethease](https://promethease.com/), so I will be checking that out next.
 
 I am just getting started analyzing my sequencing data and I will post more about what I find along the way.
 
