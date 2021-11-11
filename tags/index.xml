@@ -5,7 +5,34 @@
     <link>https://boonepeter.github.io/tags/</link>
     <description>Recent content in Tags on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>https://boonepeter.github.io/tags/python/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spotify</title>
+      <link>https://boonepeter.github.io/tags/spotify/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/tags/spotify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://boonepeter.github.io/tags/tech/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/tags/tech/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>bigquery</title>
       <link>https://boonepeter.github.io/tags/bigquery/</link>
@@ -48,15 +75,6 @@
       <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://boonepeter.github.io/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://boonepeter.github.io/tags/tech/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://boonepeter.github.io/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -120,24 +138,6 @@
       <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://boonepeter.github.io/tags/typescript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://boonepeter.github.io/tags/python/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://boonepeter.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spotify</title>
-      <link>https://boonepeter.github.io/tags/spotify/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://boonepeter.github.io/tags/spotify/</guid>
       <description></description>
     </item>
     
