@@ -11,10 +11,9 @@ draft: false
 
 In [part 1](/posts/2020-11-10-spotify-codes) I dove into Spotify Codes and explained the general technical concepts of how they work. If you haven't read that post you should check it out. I [shared it on reddit](https://www.reddit.com/r/programming/comments/jvrpvj/how_spotify_codes_work/) where it generated a lot of interesting discussion. [Ludvig Strigeus](https://en.wikipedia.org/wiki/Ludvig_Strigeus), a key early developer at Spotify and the person who invented Spotify Codes, even stopped by and shared some more information on their creation and the rational behind them!
 
-At the end of part 1 I wrote that I wasn't sure about some of the details, so I was not able to implement my own barcode to URI converter. Thanks to a little more digging and a [lot of help from someone on Stack Overflow](https://stackoverflow.com/a/64950150/10703868) I can now do that conversion. You can find the code [here](https://github.com/boonepeter/boonepeter.github.io-code/tree/main/spotify-codes-part-2).
+At the end of part 1 I wrote that I wasn't sure about some of the details, so I was not able to implement my own barcode to URI converter. Thanks to a little more digging and a [lot of help from someone on Stack Overflow](https://stackoverflow.com/a/64950150/10703868) I can now do that conversion.
 
 This article is going to be a little bit more technical than part 1 as I try to explain _exactly_ how Spotify encodes their barcodes. I will include some more resources if you want to keep learning.
-
 
 ## Encoding a URI into a Spotify Barcode
 
