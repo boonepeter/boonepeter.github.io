@@ -237,7 +237,7 @@ This is equivalent to punturing the two parity bit sequences with the patterns `
 
 #### Permututation
 
-Spotify then shuffles the data to spread out errors:
+Spotify then shuffles the data to spread out errors when a whole bar is lost:
 
 > A shuffling process may be used to spread out the potential errors (e.g., if a whole bar/distance is missing). Instead of having the encoded bar lengths be consecutive, the lost bits are non-consecutive in the code word. This improves the chances for the forward error correction to work when a whole bar or distance is lost. Thus to scan the optical code, after the lengths of the found bars are converted into bits with certainties, the bits are shuffled back into the right order.
 
