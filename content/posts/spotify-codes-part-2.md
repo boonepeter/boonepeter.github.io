@@ -281,7 +281,7 @@ Three additional bars are added as reference points at the start, end, and 12th 
 [0]5741466024[7]3467556070[0]
 ```
 
-Which gives use the resulting Spotify code:
+Which gives us the resulting Spotify code:
 ![Spotify code for indie running playlist](/imgs/spotify-2/spcode-37i9dQZF1DWZq91oLsHZvy_labeled.png)
 
 ## Decoding
