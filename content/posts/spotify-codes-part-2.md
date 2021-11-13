@@ -40,12 +40,12 @@ Next, [cyclic redundancy check](https://en.wikipedia.org/wiki/Cyclic_redundancy_
 Spotify uses CRC-8 with the following generator:
 
 ```text
-x^8 + x^2 + 1
+x^8 + x^2 + x + 1
 ```
 
 Which gives us the following polynomial when fully written out:
 ```text
-1x^8 + 0x^7 + 0x^6 + 0x^5 + 0x^4 + 0x^3 + 1x^2 + 1
+1x^8 + 0x^7 + 0x^6 + 0x^5 + 0x^4 + 0x^3 + 1x^2 + x + 1
 [1, 0, 0, 0, 0, 0, 1, 1, 1]
 ```
 
