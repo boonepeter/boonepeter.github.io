@@ -252,3 +252,7 @@ I think it is cool how Spotify uses "old school" computer science techniques. Fr
 I was hoping to be able to implement my own Spotify Code to URI tool, but I wasn't quite able to. I don't know exactly what forward error correction Spotify uses. I also don't know for sure if they are using CRC8. There is also another step that I didn't mention where they shuffle the bars around, and I don't know how they do that. I haven't quite given up, though. I plan to spend some more time studying a lot of sequences to see if I can figure out the error detection. I need to generate a bunch of corresponding URI, media reference, and Spotify code triplets.
 
 I didn't expect to learn quite this much when I started exploring Spotify codes, but that is the cool part about scratching the "curiosity itch"!
+
+## Update
+
+Part 2 is out now! You can read it [here](https://boonepeter.github.io/posts/spotify-codes-part-2/). In this post I present exactly how Spotify Codes are encoded.
