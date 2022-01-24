@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tomorrow's Wordle"
+title: "Tomorrow's Wordle (Spoiler Alert!)"
 author: Peter Boone
 date: 2022-01-24
 tags: ["wordle", "tech"]
