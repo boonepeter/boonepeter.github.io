@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://boonepeter.github.io/</loc>
-    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/</loc>
-    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/</loc>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/tech/</loc>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/tomorrows-wordle/</loc>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/wordle/</loc>
+    <lastmod>2022-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/python/</loc>
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>
@@ -15,12 +27,6 @@
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/spotify-codes-part-2/</loc>
-    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/</loc>
-    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/tech/</loc>
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/bigquery/</loc>
