@@ -5,7 +5,19 @@
     <link>https://boonepeter.github.io/posts/</link>
     <description>Recent content in Posts on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BigQuery Resources</title>
+      <link>https://boonepeter.github.io/posts/bigquery-resources/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/bigquery-resources/</guid>
+      <description>This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).
+&amp;ldquo;Under the hood&amp;rdquo; articles Anatomy of a BigQuery Query: Why is BigQuery cool?
+BigQuery under the hood: High-level descriptioon of how BigQuery is able to be so fast.
+In memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery&amp;rsquo;s shuffle.</description>
+    </item>
+    
     <item>
       <title>Tomorrow&#39;s Wordle (Spoiler Alert!)</title>
       <link>https://boonepeter.github.io/posts/tomorrows-wordle/</link>
