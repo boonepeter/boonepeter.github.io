@@ -156,7 +156,8 @@ NULL in BigQuery
 </h2>
 </header>
 <section class=entry-content>
-<p>Keeping track of how NULL values are handled in different SQL dialects can be tricky. This post will serve as a living document where I keep track of how BigQuery does this.
+<p>When in doubt, NULL means “we don’t know the state of this thing so we can’t perform an operation on it."
+Keeping track of how NULL values are handled in different SQL dialects can be tricky. This post will serve as a living document where I keep track of how BigQuery does this.
 NULL and STRING comparison Comparison always returns NULL.
 SELECT CAST(NULL AS STRING) = '', -- null CAST(NULL AS STRING) = 'value', -- null CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE....</p>
 </section>
