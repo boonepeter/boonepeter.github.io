@@ -7,6 +7,9 @@ date: 2021-09-14
 draft: false
 ---
 
+__When in doubt, `NULL` means "we don't know the state of this thing so we can't perform an operation on it."__
+
+
 Keeping track of how __NULL__ values are handled in different SQL dialects can be tricky.
 This post will serve as a living document where I keep track of how BigQuery does this.
 
@@ -297,6 +300,25 @@ Row|value_type|is_null|is_not_null|_array_length
 1|empty_array|false|true|0
 2|null_array|true|false|`null`
 3|array_with_nulls|false|true|1
+
+### `NULL` and `ARRAY` operations
+
+`ARRAY_CONCAT` NULL and an array returns `NULL`:
+```sql
+SELECT 
+  ARRAY_CONCAT(CAST(NULL AS ARRAY<STRING>), ['test'])
+
+-- null
+```
+
+Compare that to `ARRAY_CONCAT` an array and an empty array:
+
+```sql
+SELECT 
+  ARRAY_CONCAT([], ['test'])
+
+-- ['test']
+```
 
 
 ## `NULL` and `DATE` operations
