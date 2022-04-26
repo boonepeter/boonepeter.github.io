@@ -1,139 +1,20 @@
-<!doctype html><html lang=en dir=auto>
-<head><meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>BigQuery Resources - Peter Boone</title>
-<meta name=keywords content="bigquery,tech">
-<meta name=description content="This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>BigQuery Resources - Peter Boone</title><meta name=keywords content="bigquery,tech"><meta name=description content="This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).
 &ldquo;Under the hood&rdquo; articles Anatomy of a BigQuery Query: Why is BigQuery cool?
 BigQuery under the hood: High-level descriptioon of how BigQuery is able to be so fast.
-In memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery&rsquo;s shuffle.">
-<meta name=author content="Peter Boone">
-<link rel=canonical href=https://boonepeter.github.io/posts/bigquery-resources/>
-<link href=https://boonepeter.github.io/assets/css/stylesheet.min.69a0a2b5ef2f62289117c5e7895b832df501978d8dfb1274dc90509d9924b2bb.css integrity="sha256-aaCite8vYiiRF8XniVuDLfUBl42N+xJ03JBQnZkksrs=" rel="preload stylesheet" as=style>
-<link rel=manifest href=https://boonepeter.github.io/site.webmanifest>
-<link rel=icon href=https://boonepeter.github.io/favicon.ico>
-<link rel=icon type=image/png sizes=16x16 href=https://boonepeter.github.io/favicon-16x16.png>
-<link rel=icon type=image/png sizes=32x32 href=https://boonepeter.github.io/favicon-32x32.png>
-<link rel=apple-touch-icon href=https://boonepeter.github.io/apple-touch-icon.png>
-<link rel=mask-icon href=https://boonepeter.github.io/safari-pinned-tab.svg>
-<meta name=theme-color content="#2e2e33">
-<meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.2">
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-125699184-1','auto'),ga('send','pageview'))</script>
-<script async src=https://www.google-analytics.com/analytics.js></script>
-<meta property="og:title" content="BigQuery Resources">
-<meta property="og:description" content="This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).
+In memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery&rsquo;s shuffle."><meta name=author content="Peter Boone"><link rel=canonical href=https://boonepeter.github.io/posts/bigquery-resources/><link href=https://boonepeter.github.io/assets/css/stylesheet.min.69a0a2b5ef2f62289117c5e7895b832df501978d8dfb1274dc90509d9924b2bb.css integrity="sha256-aaCite8vYiiRF8XniVuDLfUBl42N+xJ03JBQnZkksrs=" rel="preload stylesheet" as=style><link rel=manifest href=https://boonepeter.github.io/site.webmanifest><link rel=icon href=https://boonepeter.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://boonepeter.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://boonepeter.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://boonepeter.github.io/apple-touch-icon.png><link rel=mask-icon href=https://boonepeter.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.97.3"><script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-125699184-1","auto"),ga("send","pageview"))</script><script async src=https://www.google-analytics.com/analytics.js></script><meta property="og:title" content="BigQuery Resources"><meta property="og:description" content="This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).
 &ldquo;Under the hood&rdquo; articles Anatomy of a BigQuery Query: Why is BigQuery cool?
 BigQuery under the hood: High-level descriptioon of how BigQuery is able to be so fast.
-In memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery&rsquo;s shuffle.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://boonepeter.github.io/posts/bigquery-resources/">
-<meta property="article:published_time" content="2022-03-01T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-03-01T00:00:00+00:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="BigQuery Resources">
-<meta name=twitter:description content="This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).
+In memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery&rsquo;s shuffle."><meta property="og:type" content="article"><meta property="og:url" content="https://boonepeter.github.io/posts/bigquery-resources/"><meta property="article:published_time" content="2022-03-01T00:00:00+00:00"><meta property="article:modified_time" content="2022-03-01T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="BigQuery Resources"><meta name=twitter:description content="This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).
 &ldquo;Under the hood&rdquo; articles Anatomy of a BigQuery Query: Why is BigQuery cool?
 BigQuery under the hood: High-level descriptioon of how BigQuery is able to be so fast.
-In memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery&rsquo;s shuffle.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"BigQuery Resources","name":"BigQuery Resources","description":"This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).\n\u0026amp;ldquo;Under the hood\u0026amp;rdquo; articles Anatomy of a BigQuery …","keywords":["bigquery","tech"],"articleBody":"This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).\n“Under the hood” articles Anatomy of a BigQuery Query: Why is BigQuery cool?\nBigQuery under the hood: High-level descriptioon of how BigQuery is able to be so fast.\nIn memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery’s shuffle.\nDremel: The paper about Dremel (Google’s internal name for BigQuery). If you’re interested in data structures you should check out this paper and learn about repetition and definition levels.\nHow does Google compress the columns (it’s complicated and depends on what your data looks like)\nPerformance IO best practices: Mainly, avoid SELECT * queries.\nCommunication performance: reduce datta before joins, use WITH clauses primarily for readability (they aren’t materialized)\nOptimize query computation: Practical tips for how to make BigQuery queries faster.\nSQL anti-patterns: A list of common SQL anti-patterns to avoid.\nStyle dbt style guide: Some good general advice that is aplicable to BigQuery.\nGitlab style guide\nMy articles BigQuery records\nNull in BigQuery\nUnnecessary BigQuery optimization\n","wordCount":"187","inLanguage":"en","datePublished":"2022-03-01T00:00:00Z","dateModified":"2022-03-01T00:00:00Z","author":{"@type":"Person","name":"Peter Boone"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://boonepeter.github.io/posts/bigquery-resources/"},"publisher":{"@type":"Organization","name":"Peter Boone","logo":{"@type":"ImageObject","url":"https://boonepeter.github.io/favicon.ico"}}}</script>
-</head>
-<body class=single id=top>
-<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
-<noscript>
-<style type=text/css>.theme-toggle,.top-link{display:none}</style>
-</noscript>
-<header class=header>
-<nav class=nav>
-<div class=logo>
-<a href=https://boonepeter.github.io/ accesskey=h>Peter Boone</a>
-<span class=logo-switches>
-<span class=theme-toggle>
-<a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-</a>
-</span>
-</span>
-</div>
-<ul class=menu id=menu onscroll=menu_on_scroll()>
-<li>
-<a href=https://boonepeter.github.io/archive/>
-<span>
-Archives
-</span>
-</a>
-</li>
-<li>
-<a href=https://boonepeter.github.io/tags/>
-<span>
-Tags
-</span>
-</a>
-</li>
-<li>
-<a href=https://buttondown.email/boonepeter>
-<span>
-Subscribe
-</span>
-</a>
-</li></ul>
-</nav>
-</header>
-<main class=main>
-<article class=post-single>
-<header class=post-header>
-<h1 class=post-title>
-BigQuery Resources
-</h1>
-<div class=post-meta>
-March 1, 2022&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Peter Boone
-&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/bigquery-resources.md>Source</a>
-</div>
-</header>
-<div class=post-content>
-<p>This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).</p>
-<h2 id=under-the-hood-articles>&ldquo;Under the hood&rdquo; articles<a hidden class=anchor aria-hidden=true href=#under-the-hood-articles>#</a></h2>
-<p><a href=https://cloud.google.com/blog/products/bigquery/anatomy-of-a-bigquery-query>Anatomy of a BigQuery Query</a>: Why is BigQuery cool?</p>
-<p><a href=https://cloud.google.com/blog/products/bigquery/bigquery-under-the-hood>BigQuery under the hood</a>: High-level descriptioon of how BigQuery is able to be so fast.</p>
-<p><a href=https://cloud.google.com/blog/products/bigquery/in-memory-query-execution-in-google-bigquery>In memory query execution</a>: If you like map reduce you should read this article. It talks about what is unique about BigQuery&rsquo;s shuffle.</p>
-<p><a href=https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf>Dremel</a>: The paper about Dremel (Google&rsquo;s internal name for BigQuery). If you&rsquo;re interested in data structures you should check out this paper and learn about repetition and definition levels.</p>
-<p><a href=https://cloud.google.com/blog/products/bigquery/inside-capacitor-bigquerys-next-generation-columnar-storage-format>How does Google compress the columns</a> (it&rsquo;s complicated and depends on what your data looks like)</p>
-<h2 id=performance>Performance<a hidden class=anchor aria-hidden=true href=#performance>#</a></h2>
-<p><a href=https://cloud.google.com/bigquery/docs/best-practices-performance-input>IO best practices</a>: Mainly, avoid <code>SELECT *</code> queries.</p>
-<p><a href=https://cloud.google.com/bigquery/docs/best-practices-performance-communication>Communication performance</a>: reduce datta before joins, use WITH clauses primarily for readability (they aren&rsquo;t materialized)</p>
-<p><a href=https://cloud.google.com/bigquery/docs/best-practices-performance-compute>Optimize query computation</a>: Practical tips for how to make BigQuery queries faster.</p>
-<p><a href=https://cloud.google.com/bigquery/docs/best-practices-performance-patterns>SQL anti-patterns</a>: A list of common SQL anti-patterns to avoid.</p>
-<h2 id=style>Style<a hidden class=anchor aria-hidden=true href=#style>#</a></h2>
-<p><a href=https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md>dbt style guide</a>: Some good general advice that is aplicable to BigQuery.</p>
-<p><a href=https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/>Gitlab style guide</a></p>
-<h2 id=my-articles>My articles<a hidden class=anchor aria-hidden=true href=#my-articles>#</a></h2>
-<p><a href=/posts/bigquery-records>BigQuery records</a></p>
-<p><a href=/posts/null-in-bigquery>Null in BigQuery</a></p>
-<p><a href=/posts/unnecessary_bigquery_optimization>Unnecessary BigQuery optimization</a></p>
-</div>
-<footer class=post-footer>
-<ul class=post-tags>
-<li><a href=https://boonepeter.github.io/tags/bigquery>bigquery</a></li>
-<li><a href=https://boonepeter.github.io/tags/tech>tech</a></li>
-</ul>
-</footer>
-</article>
-</main><footer class=footer>
-<span>&copy; 2022 <a href=https://boonepeter.github.io/>Peter Boone</a></span>
+In memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery&rsquo;s shuffle."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"BigQuery Resources","name":"BigQuery Resources","description":"This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).\n\u0026amp;ldquo;Under the hood\u0026amp;rdquo; articles Anatomy of a BigQuery …","keywords":["bigquery","tech"],"articleBody":"This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).\n“Under the hood” articles Anatomy of a BigQuery Query: Why is BigQuery cool?\nBigQuery under the hood: High-level descriptioon of how BigQuery is able to be so fast.\nIn memory query execution: If you like map reduce you should read this article. It talks about what is unique about BigQuery’s shuffle.\nDremel: The paper about Dremel (Google’s internal name for BigQuery). If you’re interested in data structures you should check out this paper and learn about repetition and definition levels.\nHow does Google compress the columns (it’s complicated and depends on what your data looks like)\nPerformance IO best practices: Mainly, avoid SELECT * queries.\nCommunication performance: reduce datta before joins, use WITH clauses primarily for readability (they aren’t materialized)\nOptimize query computation: Practical tips for how to make BigQuery queries faster.\nSQL anti-patterns: A list of common SQL anti-patterns to avoid.\nStyle dbt style guide: Some good general advice that is aplicable to BigQuery.\nGitlab style guide\nMy articles BigQuery records\nNull in BigQuery\nUnnecessary BigQuery optimization\n","wordCount":"187","inLanguage":"en","datePublished":"2022-03-01T00:00:00Z","dateModified":"2022-03-01T00:00:00Z","author":{"@type":"Person","name":"Peter Boone"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://boonepeter.github.io/posts/bigquery-resources/"},"publisher":{"@type":"Organization","name":"Peter Boone","logo":{"@type":"ImageObject","url":"https://boonepeter.github.io/favicon.ico"}}}</script></head><body class=single id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><noscript><style type=text/css>.theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://boonepeter.github.io/ accesskey=h>Peter Boone</a>
+<span class=logo-switches><span class=theme-toggle><a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></a></span></span></div><ul class=menu id=menu onscroll=menu_on_scroll()><li><a href=https://boonepeter.github.io/archive/><span>Archives</span></a></li><li><a href=https://boonepeter.github.io/tags/><span>Tags</span></a></li><li><a href=https://buttondown.email/boonepeter><span>Subscribe</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>BigQuery Resources</h1><div class=post-meta>March 1, 2022&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Peter Boone
+&nbsp;·&nbsp;<a href=https://github.com/boonepeter/boonepeter.github.io/blob/master/content/posts/bigquery-resources.md>Source</a></div></header><div class=post-content><p>This is a living document of BigQuery resources that I have found useful (with some comments about their usefulness).</p><h2 id=under-the-hood-articles>&ldquo;Under the hood&rdquo; articles<a hidden class=anchor aria-hidden=true href=#under-the-hood-articles>#</a></h2><p><a href=https://cloud.google.com/blog/products/bigquery/anatomy-of-a-bigquery-query>Anatomy of a BigQuery Query</a>: Why is BigQuery cool?</p><p><a href=https://cloud.google.com/blog/products/bigquery/bigquery-under-the-hood>BigQuery under the hood</a>: High-level descriptioon of how BigQuery is able to be so fast.</p><p><a href=https://cloud.google.com/blog/products/bigquery/in-memory-query-execution-in-google-bigquery>In memory query execution</a>: If you like map reduce you should read this article. It talks about what is unique about BigQuery&rsquo;s shuffle.</p><p><a href=https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf>Dremel</a>: The paper about Dremel (Google&rsquo;s internal name for BigQuery). If you&rsquo;re interested in data structures you should check out this paper and learn about repetition and definition levels.</p><p><a href=https://cloud.google.com/blog/products/bigquery/inside-capacitor-bigquerys-next-generation-columnar-storage-format>How does Google compress the columns</a> (it&rsquo;s complicated and depends on what your data looks like)</p><h2 id=performance>Performance<a hidden class=anchor aria-hidden=true href=#performance>#</a></h2><p><a href=https://cloud.google.com/bigquery/docs/best-practices-performance-input>IO best practices</a>: Mainly, avoid <code>SELECT *</code> queries.</p><p><a href=https://cloud.google.com/bigquery/docs/best-practices-performance-communication>Communication performance</a>: reduce datta before joins, use WITH clauses primarily for readability (they aren&rsquo;t materialized)</p><p><a href=https://cloud.google.com/bigquery/docs/best-practices-performance-compute>Optimize query computation</a>: Practical tips for how to make BigQuery queries faster.</p><p><a href=https://cloud.google.com/bigquery/docs/best-practices-performance-patterns>SQL anti-patterns</a>: A list of common SQL anti-patterns to avoid.</p><h2 id=style>Style<a hidden class=anchor aria-hidden=true href=#style>#</a></h2><p><a href=https://github.com/dbt-labs/corp/blob/main/dbt_style_guide.md>dbt style guide</a>: Some good general advice that is aplicable to BigQuery.</p><p><a href=https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/>Gitlab style guide</a></p><h2 id=my-articles>My articles<a hidden class=anchor aria-hidden=true href=#my-articles>#</a></h2><p><a href=/posts/bigquery-records>BigQuery records</a></p><p><a href=/posts/null-in-bigquery>Null in BigQuery</a></p><p><a href=/posts/unnecessary_bigquery_optimization>Unnecessary BigQuery optimization</a></p></div><footer class=post-footer><ul class=post-tags><li><a href=https://boonepeter.github.io/tags/bigquery>bigquery</a></li><li><a href=https://boonepeter.github.io/tags/tech>tech</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2022 <a href=https://boonepeter.github.io/>Peter Boone</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>
 <span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span>
 <span>&#183;</span>
-<span><a href=https://buttondown.email/boonepeter>Subscribe</a></span>
-</footer>
-<a href=#top aria-label="go to top" title="Go to Top" accesskey=g>
-<button class=top-link id=top-link type=button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
-</button>
-</a>
-<script src=https://boonepeter.github.io/assets/js/highlight.min.727bc06f35142445e1ca4dbf0c258372d440dfd30ea831e99dbe7bf9e54d11da.js integrity="sha256-cnvAbzUUJEXhyk2/DCWDctRA39MOqDHpnb57+eVNEdo="></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position"))},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(a){a.preventDefault();var b=this.getAttribute("href").substr(1);document.querySelector(`[id='${b}']`).scrollIntoView({behavior:"smooth"})})});var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft)}</script>
-<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
-</body>
-</html>
+<span><a href=https://buttondown.email/boonepeter>Subscribe</a></span></footer><a href=#top aria-label="go to top" title="Go to Top" accesskey=g><button class=top-link id=top-link type=button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg></button></a>
+<script src=https://boonepeter.github.io/assets/js/highlight.min.1e4e5862fe99653fe5c2fd3499f7ddd4e2f10f814a1b86d1e3587f212ed23ec1.js integrity="sha256-Hk5YYv6ZZT/lwv00mffd1OLxD4FKG4bR41h/IS7SPsE="></script>
+<script>hljs.initHighlightingOnLoad()</script><script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById("menu").scrollLeft=localStorage.getItem("menu-scroll-position"))},document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);document.querySelector(`[id='${t}']`).scrollIntoView({behavior:"smooth"})})});var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById("menu").scrollLeft)}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>

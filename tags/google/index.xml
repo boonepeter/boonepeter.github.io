@@ -22,10 +22,10 @@ That&amp;rsquo;s a 10,000x decrease in cost! If the price of homes decreased at 
       <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://boonepeter.github.io/posts/null-in-bigquery/</guid>
-      <description>When in doubt, NULL means &amp;ldquo;we don&amp;rsquo;t know the state of this thing so we can&amp;rsquo;t perform an operation on it.&amp;quot;
+      <description>When in doubt, NULL means &amp;ldquo;we don&amp;rsquo;t know the state of this thing so we can&amp;rsquo;t perform an operation on it.&amp;rdquo;
 Keeping track of how NULL values are handled in different SQL dialects can be tricky. This post will serve as a living document where I keep track of how BigQuery does this.
 NULL and STRING comparison Comparison always returns NULL.
-SELECT CAST(NULL AS STRING) = &amp;#39;&amp;#39;, -- null  CAST(NULL AS STRING) = &amp;#39;value&amp;#39;, -- null  CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE.</description>
+SELECT  CAST(NULL AS STRING) = &amp;#39;&amp;#39;, -- null  CAST(NULL AS STRING) = &amp;#39;value&amp;#39;, -- null  CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE.</description>
     </item>
     
     <item>
