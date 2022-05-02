@@ -2,7 +2,7 @@
 layout: post
 title: "2019 FFB Innovation Summit"
 author: Peter Boone
-tags: ["choroideremia", "FFB"]
+tags: ["choroideremia", "FFB", "ARVO"]
 date: 2019-04-27
 ---
 

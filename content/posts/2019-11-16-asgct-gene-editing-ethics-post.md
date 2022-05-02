@@ -2,6 +2,7 @@
 layout: post
 title: "ASGCT Policy Summit, Day 3"
 author: Peter Boone
+tags: ["choroideremia", "ASGCT"]
 date: 2019-11-16
 draft: false
 ---

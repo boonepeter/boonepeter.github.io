@@ -3,7 +3,7 @@ layout: post
 title: "2018 CRF Special Interest Group"
 author: Peter Boone
 date: 2019-04-24
-tags: ["choroideremia", "CRF"]
+tags: ["choroideremia", "CRF", "ARVO"]
 ---
 The second article I wrote about ARVO 2018.
 
