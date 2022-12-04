@@ -5,7 +5,17 @@
     <link>https://boonepeter.github.io/tags/bigquery/</link>
     <description>Recent content in bigquery on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/bigquery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/bigquery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code In BigQuery</title>
+      <link>https://boonepeter.github.io/posts/advent_of_code_2022/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/advent_of_code_2022/</guid>
+      <description>This year, I am be taking a page out of Felipe Hoffa&amp;rsquo;s book and will be attempting to complete the Advent of Code using BigQuery SQL. Until I reach the point where I can&amp;rsquo;t solve the puzzles with SQL, I&amp;rsquo;ll keep track of things here.
+Day 1 WITH raw_input AS ( /* To start, I just copy/paste the input as a raw text string, and then parse that string into rows.</description>
+    </item>
+    
     <item>
       <title>BigQuery Resources</title>
       <link>https://boonepeter.github.io/posts/bigquery-resources/</link>
@@ -37,7 +47,7 @@ That&amp;rsquo;s a 10,000x decrease in cost! If the price of homes decreased at 
       <description>When in doubt, NULL means &amp;ldquo;we don&amp;rsquo;t know the state of this thing so we can&amp;rsquo;t perform an operation on it.&amp;rdquo;
 Keeping track of how NULL values are handled in different SQL dialects can be tricky. This post will serve as a living document where I keep track of how BigQuery does this.
 NULL and STRING comparison Comparison always returns NULL.
-SELECT  CAST(NULL AS STRING) = &amp;#39;&amp;#39;, -- null  CAST(NULL AS STRING) = &amp;#39;value&amp;#39;, -- null  CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE.</description>
+SELECT CAST(NULL AS STRING) = &amp;#39;&amp;#39;, -- null CAST(NULL AS STRING) = &amp;#39;value&amp;#39;, -- null CAST(NULL AS STRING) = CAST(NULL AS STRING) -- null NULL and BOOL comparison NULL is not TRUE or FALSE.</description>
     </item>
     
     <item>
@@ -57,8 +67,8 @@ Columnar Data and Records The underlying storage format for BigQuery is columnar
       
       <guid>https://boonepeter.github.io/posts/unnecessary_bigquery_optimization/</guid>
       <description>I was reading a post about BigQuery cost optimization which stated this:
- Also remember you are charged for bytes processed in the first stage of query execution. Avoid creating a complex multistage query just to optimize for bytes processed in the intermediate stages, since there are no cost implications anyway (though you may achieve performance gains).
- I was curious about this, because I have written some queries to minimize reading data multiple times.</description>
+Also remember you are charged for bytes processed in the first stage of query execution. Avoid creating a complex multistage query just to optimize for bytes processed in the intermediate stages, since there are no cost implications anyway (though you may achieve performance gains).
+I was curious about this, because I have written some queries to minimize reading data multiple times.</description>
     </item>
     
   </channel>

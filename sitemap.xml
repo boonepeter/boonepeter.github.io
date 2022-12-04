@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://boonepeter.github.io/posts/advent_of_code_2022/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/bigquery/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/google/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/tags/tech/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://boonepeter.github.io/tags/arvo/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,22 +32,7 @@
     <loc>https://boonepeter.github.io/tags/choroideremia/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boonepeter.github.io/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/posts/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/bigquery/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://boonepeter.github.io/posts/bigquery-resources/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/tech/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/tomorrows-wordle/</loc>
@@ -51,9 +57,6 @@
     <lastmod>2021-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/genome/</loc>
-    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boonepeter.github.io/tags/google/</loc>
     <lastmod>2021-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/personal-genome-sequencing/</loc>

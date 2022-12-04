@@ -5,7 +5,34 @@
     <link>https://boonepeter.github.io/tags/</link>
     <description>Recent content in Tags on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bigquery</title>
+      <link>https://boonepeter.github.io/tags/bigquery/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/tags/bigquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google</title>
+      <link>https://boonepeter.github.io/tags/google/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://boonepeter.github.io/tags/tech/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/tags/tech/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ARVO</title>
       <link>https://boonepeter.github.io/tags/arvo/</link>
@@ -21,24 +48,6 @@
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://boonepeter.github.io/tags/choroideremia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bigquery</title>
-      <link>https://boonepeter.github.io/tags/bigquery/</link>
-      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://boonepeter.github.io/tags/bigquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://boonepeter.github.io/tags/tech/</link>
-      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://boonepeter.github.io/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -93,15 +102,6 @@
       <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://boonepeter.github.io/tags/genome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>google</title>
-      <link>https://boonepeter.github.io/tags/google/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://boonepeter.github.io/tags/google/</guid>
       <description></description>
     </item>
     
