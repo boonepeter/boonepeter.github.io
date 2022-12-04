@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hugo default output directory
 /public
 
@@ -11,6 +10,5 @@ $RECYCLE.BIN/
 
 # OSX
 .DS_Store
-=======
-settings.json
->>>>>>> 0c7e14c179fc9ea4315464e47a5344e242d1e890
+
+.hugo_build.lock
