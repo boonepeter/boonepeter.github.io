@@ -2,7 +2,7 @@
 layout: post
 title: "Advent of Code In BigQuery - Day 5"
 author: Peter Boone
-tags: ["tech", "bigquery", "google"]
+tags: ["adventofcode", "tech", "bigquery", "google"]
 date: 2022-12-05
 draft: false
 ---
