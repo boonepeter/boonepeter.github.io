@@ -5,7 +5,17 @@
     <link>https://boonepeter.github.io/tags/google/</link>
     <description>Recent content in google on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code In BigQuery - Day 5</title>
+      <link>https://boonepeter.github.io/posts/advent_of_code_2022_day_5/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/advent_of_code_2022_day_5/</guid>
+      <description>Oof, this one was rough. This may be the start of the end for my SQL Advent of Code journey. I tried a few different approaches before &amp;ldquo;cheating&amp;rdquo; and falling back on a Javascript UDF. This code is a mess and I would definitly not recommend reading it. I don&amp;rsquo;t have the stomach to go back and read it myself to clean it up.
+CREATE TEMP FUNCTION move_box(directions ARRAY&amp;lt;STRUCT&amp;lt;quantity INT64, move_from INT64, move_to INT64&amp;gt;&amp;gt;, start_positions ARRAY&amp;lt;STRUCT&amp;lt;c INT64, value STRING&amp;gt;&amp;gt;) RETURNS STRING LANGUAGE js AS r&amp;#34;&amp;#34;&amp;#34; let x = {}; for (let i = 0; i &amp;lt; start_positions.</description>
+    </item>
+    
     <item>
       <title>Advent of Code In BigQuery</title>
       <link>https://boonepeter.github.io/posts/advent_of_code_2022/</link>
