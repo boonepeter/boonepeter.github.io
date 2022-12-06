@@ -287,3 +287,7 @@ SELECT
   COUNTIF(overlap)
 FROM part_2;
 ```
+
+## Day 5
+
+[Day 5](/posts/advent_of_code_2022_day_5)
