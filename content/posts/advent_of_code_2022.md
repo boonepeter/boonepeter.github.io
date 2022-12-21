@@ -296,3 +296,7 @@ FROM part_2;
 ## Day 6
 
 [Day 6](/posts/advent_of_code_2022_day_6)
+
+## Day 7
+
+[Day 7](/posts/advent_of_code_2022_day_7)
