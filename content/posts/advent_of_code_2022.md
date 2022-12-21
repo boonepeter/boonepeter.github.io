@@ -300,3 +300,7 @@ FROM part_2;
 ## Day 7
 
 [Day 7](/posts/advent_of_code_2022_day_7)
+
+## Day 8
+
+[Day 8](/posts/advent_of_code_2022_day_8)
