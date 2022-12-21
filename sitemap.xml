@@ -2,28 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://boonepeter.github.io/posts/advent_of_code_2022_day_6/</loc>
-    <lastmod>2022-12-06T00:00:00+00:00</lastmod>
+    <loc>https://boonepeter.github.io/posts/advent_of_code_2022_day_7/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/adventofcode/</loc>
-    <lastmod>2022-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/bigquery/</loc>
-    <lastmod>2022-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/google/</loc>
-    <lastmod>2022-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/</loc>
-    <lastmod>2022-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/</loc>
-    <lastmod>2022-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/</loc>
-    <lastmod>2022-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/tags/tech/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boonepeter.github.io/posts/advent_of_code_2022_day_6/</loc>
     <lastmod>2022-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boonepeter.github.io/posts/advent_of_code_2022_day_5/</loc>

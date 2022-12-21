@@ -5,7 +5,17 @@
     <link>https://boonepeter.github.io/tags/bigquery/</link>
     <description>Recent content in bigquery on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/bigquery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/bigquery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code In BigQuery - Day 7</title>
+      <link>https://boonepeter.github.io/posts/advent_of_code_2022_day_7/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/advent_of_code_2022_day_7/</guid>
+      <description>I have fallen behind since day 6, but am attempting to make up some ground.
+Day 7 proved to be pretty tough. I kept track of the &amp;ldquo;current&amp;rdquo; directory by appending all of the cd commands. I then removed the directory before the .., ie one/dir/.. -&amp;gt; one. I attempted to use a recursive regex for this, but unfortunatly BigQuery uses the re2 regex library which does not support recursive syntax.</description>
+    </item>
+    
     <item>
       <title>Advent of Code In BigQuery - Day 6</title>
       <link>https://boonepeter.github.io/posts/advent_of_code_2022_day_6/</link>
