@@ -299,5 +299,16 @@ ARVO 2018 The annual meeting of ARVO (the Association for Research in Vision and
       <description>archive</description>
     </item>
     
+    <item>
+      <title>Resume</title>
+      <link>https://boonepeter.github.io/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/resume/</guid>
+      <description>Senior Software Engineer with a background in molecular biology, excelling in data engineering, team building, and solving data modeling challenges. Skilled at leveraging cutting-edge technologies and tools to drive innovation and tackle complex problems.
+Experience BenchSci Tech Lead - Senior Software Engineer, Data • Jan 2023 - Present
+Led a data engineering team to extract insights from published research articles to power BenchSci&amp;rsquo;s Architect application Deployed LLMs in collaboration with science domain experts and ML engineers Implemented ELT data pipelines (using BigQuery and DataFlow) to increase platform data by 2x Senior Software Engineer, Data • July 2022 - Jan 2023</description>
+    </item>
+    
   </channel>
 </rss>
