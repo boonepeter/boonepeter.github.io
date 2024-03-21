@@ -26,6 +26,9 @@ languages:
         - name: Subscribe
           url: https://buttondown.email/boonepeter
           weight: 11
+        - name: Resume
+          url: /resume/
+          weight: 12
 
 params:
   env: production
