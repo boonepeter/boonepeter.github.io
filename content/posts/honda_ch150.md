@@ -10,7 +10,7 @@ draft: false
 ![My 1987 Honda CH 150 moped](/imgs/honda/honda-ch150-1987.jpg)
 
 
-I have a 1987 Honda Elite 150 (CH 150) moped that I love to cruise around on. I struggled to find a service manual online. So I bought a copy on Ebay and scaned all of the pages. I then ran it through [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) to make it easier to search. [That PDF can be found here](https://github.com/boonepeter/boonepeter.github.io/tree/master/content/data/honda_ch150_elite_150_1987_manual_ocr.pdf). If you want the raw scanned pdf it can be found [here](https://github.com/boonepeter/boonepeter.github.io/tree/master/content/data/honda_ch150_elite_150_1987_manual.zip).
+I have a 1987 Honda Elite 150 (CH 150) moped that I love to cruise around on. I struggled to find a service manual online. So I bought a copy on Ebay and scaned all of the pages. I then ran it through [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) to make it easier to search. That PDF can be downloaded [here](https://github.com/boonepeter/boonepeter.github.io/blob/9f958f0eb3bba95699751b69aa9cf726ca270a9e/content/data/honda_ch150_elite_150_1987_manual_ocr.pdf?raw=true). If you want the raw scanned pdf it can be downloaded [here](https://github.com/boonepeter/boonepeter.github.io/blob/9f958f0eb3bba95699751b69aa9cf726ca270a9e/content/data/honda_ch150_elite_150_1987_manual.zip?raw=true).
 
 Hopefully by sharing it here I can help someone else.
 
