@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>moped on Peter Boone</title>
+    <link>https://boonepeter.github.io/tags/moped/</link>
+    <description>Recent content in moped on Peter Boone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/tags/moped/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1987 Honda CH 150</title>
+      <link>https://boonepeter.github.io/posts/honda_ch150/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/honda_ch150/</guid>
+      <description>I have a 1987 Honda Elite 150 (CH 150) moped that I love to cruise around on. I struggled to find a service manual online. So I bought a copy on Ebay and scaned all of the pages. I then ran it through OCRmyPDF to make it easier to search. That PDF can be found here. If you want the raw scanned pdf it can be found here.
+Hopefully by sharing it here I can help someone else.</description>
+    </item>
+    
+  </channel>
+</rss>

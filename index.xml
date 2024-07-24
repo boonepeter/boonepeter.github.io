@@ -5,7 +5,17 @@
     <link>https://boonepeter.github.io/</link>
     <description>Recent content on Peter Boone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://boonepeter.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1987 Honda CH 150</title>
+      <link>https://boonepeter.github.io/posts/honda_ch150/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://boonepeter.github.io/posts/honda_ch150/</guid>
+      <description>I have a 1987 Honda Elite 150 (CH 150) moped that I love to cruise around on. I struggled to find a service manual online. So I bought a copy on Ebay and scaned all of the pages. I then ran it through OCRmyPDF to make it easier to search. That PDF can be found here. If you want the raw scanned pdf it can be found here.
+Hopefully by sharing it here I can help someone else.</description>
+    </item>
+    
     <item>
       <title>Advent of Code In BigQuery - Day 8</title>
       <link>https://boonepeter.github.io/posts/advent_of_code_2022_day_8/</link>
